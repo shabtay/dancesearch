@@ -46,14 +46,23 @@ def main():
     displayed = {}
     if term:
         results = search(term)
-        st.write(f'<p>Number of results: {len(results)}</p><br />', unsafe_allow_html=True)
+        st.subheader(f'Number of results: {len(results)}')
         for item in results:
             if item["url"] not in displayed:
-                parsed = urlparse(item["url"])
-                st.write(
-                    f'<div class="res"><img style="width:50px; height:50px" src="{item["image_url"]}"/> \
-                    <a href="{item["url"]}">{item["org_name"]}</a><br /> \
-                    <div>Website: {parsed.netloc}</div><div>StartDate: {item["from_date"]}</div><div>Location: {item["flocation"]}</div></div><hr />', unsafe_allow_html=True)
+                with st.container():
+                    col1, col2 = st.columns(2)
+                    parsed = urlparse(item["url"])
+                    with col1:
+                        st.image(item["image_url"], width=50)
+                    with col2:
+                        st.write(f'[{item["org_name"]}]({item["url"]})')
+                        st.write(f'Website: {parsed.netloc}')
+                        st.write(f'Date: {item["from_date"]}')
+                        st.write(f'Location: {item["flocation"]}')
+                    # st.write(
+                        # f'<div class="res"><img style="width:50px; height:50px" src="{item["image_url"]}"/> \
+                        # <a href="{item["url"]}">{item["org_name"]}</a><br /> \
+                        # <div>Website: {parsed.netloc}</div><div>StartDate: {item["from_date"]}</div><div>Location: {item["flocation"]}</div></div><hr />', unsafe_allow_html=True)
                 displayed[item["url"]] = 1
 
 if __name__ == '__main__':
