@@ -1,17 +1,21 @@
-# srcs/streamlit_app/app.py
 import sys
 import streamlit as st
 import mysql.connector
-from pprint import pprint
+
 from urllib.parse import urlparse
+import configparser
+
+config = configparser.ConfigParser()
+config.sections()
+config.read('cnf.ini')
 
 def search( full_term ):
     mydb = mysql.connector.connect(
-        host="localhost",
-        port="3308",
-        user="root",
-        password="",
-        database="dance_search"
+        host = config['DB']['Host'],
+        port = config['DB']['Port'],
+        user = config['DB']['User'],
+        password = config['DB']['Pass'],
+        database = config['DB']['DBName']
     )
 
     terms = full_term.split(' ')
@@ -23,6 +27,8 @@ def search( full_term ):
     mycursor = mydb.cursor(dictionary=True)
     mycursor.execute(f"SELECT DISTINCT(id), u.url, u.image_url, u.name, u.from_date, u.flocation, u.org_name, MATCH (name) AGAINST ('{full_term}' IN BOOLEAN MODE) AS score FROM urls u where NOW()<from_date ORDER BY `score` DESC, from_date ASC;")
     myresult = mycursor.fetchall()
+
+    mydb.close()
 
     return( myresult )
 
