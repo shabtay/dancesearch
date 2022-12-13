@@ -11,7 +11,8 @@ config.read('cnf.ini')
 
 st.set_page_config(
     page_title="Dance Search Engine",
-    page_icon = ":shark:"
+    page_icon = ":shark:",
+    layout = "wide",
 )
 
 def search( full_term ):
@@ -57,10 +58,10 @@ def main():
                     with col1:
                         st.image(clean_img_url, width=100)
                     with col2:
-                        st.write(f'**Festival:** [{item["org_name"]}]({item["url"]})')
-                        #st.write(f'**Website:** {parsed.netloc}')
+                        st.write(f'**Festival:** [{item["org_name"].title()}]({item["url"]})')
                         st.write(f'**Date:** {item["from_date"]}')
                         st.write(f'**Location:** {item["flocation"]}')
+                        st.caption(f'{parsed.scheme}://{parsed.netloc}')
                 
                 st.write("<hr />", unsafe_allow_html=True)
                 displayed[item["url"]] = 1
