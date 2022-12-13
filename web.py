@@ -32,7 +32,7 @@ def search( full_term ):
     full_term = ' '.join(terms)
     
     mycursor = mydb.cursor(dictionary=True)
-    mycursor.execute(f"SELECT DISTINCT(id), u.url, u.image_url, u.name, u.from_date, u.flocation, u.org_name, MATCH (name) AGAINST ('{full_term}' IN BOOLEAN MODE) AS score FROM urls u where NOW()<from_date and MATCH (name) AGAINST ('{full_term}' IN BOOLEAN MODE)>={terms_len} ORDER BY `score` DESC, from_date ASC;")
+    mycursor.execute(f"SELECT DISTINCT(id), u.url, u.image_url, u.name, u.from_date, u.flocation, u.org_name, MATCH (name) AGAINST ('{full_term}' IN BOOLEAN MODE) AS score FROM urls u where NOW()<from_date and MATCH (name) AGAINST ('{full_term}' IN BOOLEAN MODE)>={terms_len} ORDER BY `score` DESC, from_date ASC LIMIT 10;")
     myresult = mycursor.fetchall()
 
     mydb.close()
@@ -49,20 +49,20 @@ def main():
         st.subheader(f'Number of results: {len(results)}')
         for item in results:
             if item["url"] not in displayed:
+                img = urlparse( item["image_url"] )
+                clean_img_url = f"{img.scheme}://{img.netloc}{img.path}"
                 with st.container():
                     col1, col2 = st.columns(2)
                     parsed = urlparse(item["url"])
                     with col1:
-                        st.image(item["image_url"], width=50)
+                        st.image(clean_img_url, width=100)
                     with col2:
-                        st.write(f'[{item["org_name"]}]({item["url"]})')
-                        st.write(f'Website: {parsed.netloc}')
-                        st.write(f'Date: {item["from_date"]}')
-                        st.write(f'Location: {item["flocation"]}')
-                    # st.write(
-                        # f'<div class="res"><img style="width:50px; height:50px" src="{item["image_url"]}"/> \
-                        # <a href="{item["url"]}">{item["org_name"]}</a><br /> \
-                        # <div>Website: {parsed.netloc}</div><div>StartDate: {item["from_date"]}</div><div>Location: {item["flocation"]}</div></div><hr />', unsafe_allow_html=True)
+                        st.write(f'**Festival:** [{item["org_name"]}]({item["url"]})')
+                        st.write(f'**Website:** {parsed.netloc}')
+                        st.write(f'**Date:** {item["from_date"]}')
+                        st.write(f'**Location:** {item["flocation"]}')
+                
+                st.write("<hr />", unsafe_allow_html=True)
                 displayed[item["url"]] = 1
 
 if __name__ == '__main__':
