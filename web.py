@@ -47,7 +47,7 @@ def main():
     displayed = {}
     if term:
         results = search(term)
-        st.subheader(f'Number of results: {len(results)}')
+        st.caption(f'Number of results: {len(results)}')
         for item in results:
             if item["url"] not in displayed:
                 img = urlparse( item["image_url"] )
