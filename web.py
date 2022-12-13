@@ -9,6 +9,11 @@ config = configparser.ConfigParser()
 config.sections()
 config.read('cnf.ini')
 
+st.set_page_config(
+    page_title="Dance Search Engine",
+    page_icon = ":shark:"
+)
+
 def search( full_term ):
     mydb = mysql.connector.connect(
         host = st.secrets['Host'],
@@ -34,6 +39,7 @@ def search( full_term ):
 
 def main():
     st.title('Dance Search Engine')
+
     term = st.text_input('Enter search words:')
     displayed = {}
     if term:
