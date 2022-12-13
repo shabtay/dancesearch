@@ -11,11 +11,11 @@ config.read('cnf.ini')
 
 def search( full_term ):
     mydb = mysql.connector.connect(
-        host = st.secrets['DB']['Host'],
-        port = st.secrets['DB']['Port'],
-        user = st.secrets['DB']['User'],
-        password = st.secrets['DB']['Pass'],
-        database = st.secrets['DB']['DBName']
+        host = st.secrets['Host'],
+        port = st.secrets['Port'],
+        user = st.secrets['User'],
+        password = st.secrets['Pass'],
+        database = st.secrets['DBName']
     )
 
     terms = full_term.split(' ')
