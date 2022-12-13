@@ -26,11 +26,13 @@ def search( full_term ):
     terms = full_term.split(' ')
     for i in range(len(terms)):
         terms[i] = terms[i] + "*"
-        
+    
+    terms_len = len(terms) - 1
+    
     full_term = ' '.join(terms)
     
     mycursor = mydb.cursor(dictionary=True)
-    mycursor.execute(f"SELECT DISTINCT(id), u.url, u.image_url, u.name, u.from_date, u.flocation, u.org_name, MATCH (name) AGAINST ('{full_term}' IN BOOLEAN MODE) AS score FROM urls u where NOW()<from_date and MATCH (name) AGAINST ('{full_term}' IN BOOLEAN MODE)>0 ORDER BY `score` DESC, from_date ASC;")
+    mycursor.execute(f"SELECT DISTINCT(id), u.url, u.image_url, u.name, u.from_date, u.flocation, u.org_name, MATCH (name) AGAINST ('{full_term}' IN BOOLEAN MODE) AS score FROM urls u where NOW()<from_date and MATCH (name) AGAINST ('{full_term}' IN BOOLEAN MODE)>={terms_len} ORDER BY `score` DESC, from_date ASC;")
     myresult = mycursor.fetchall()
 
     mydb.close()
