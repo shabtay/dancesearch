@@ -2,8 +2,9 @@ import sys
 import streamlit as st
 import mysql.connector
 import re
-
+from dateutil.parser import parse
 from urllib.parse import urlparse
+
 import configparser
 
 
@@ -83,8 +84,9 @@ def display_results():
                     st.image(clean_img_url, width=100)
                     st.caption( re.sub(r'[\+]', ' ', item['dance_type']).title() )
                 with col2:
+                    d = parse(str(item["from_date"])).strftime('%d %b %Y')
                     st.write(f'**Name:** [{item["org_name"].title()}]({item["url"]})')
-                    st.write(f'**Date:** {item["from_date"]}')
+                    st.write(f'**Date:** {d}')
                     st.write(f'**Location:** {item["flocation"]}')
                     st.caption(f'{parsed.scheme}://{parsed.netloc}')
             
