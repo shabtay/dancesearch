@@ -92,7 +92,7 @@ def main():
         st.session_state.page_num = 1
         
     if term:
-        col1, col2 = st.columns([1,6])
+        col1, col2 = st.columns([1,1])
         with col1:
             if st.button('<<'):
                 if st.session_state.page_num > 1:
