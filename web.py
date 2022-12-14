@@ -94,12 +94,12 @@ def main():
     if term:
         col1, col2 = st.columns([1,6])
         with col1:
-            if st.button('Next'):
-                st.session_state.page_num += 1
-        with col2:
-            if st.button('Prev'):
+            if st.button('<<'):
                 if st.session_state.page_num > 1:
                     st.session_state.page_num -= 1
+        with col2:
+            if st.button(f"\>\>"):
+                st.session_state.page_num += 1
 
         results = search(term)
         st.caption(f'Number of results: {len(results)}')
