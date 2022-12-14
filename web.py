@@ -54,7 +54,7 @@ def search( full_term ):
     return( myresult )
 
 
-def display_results():
+def display_results(col1, col2):
     results = st.session_state.results
     displayed = {}
 
@@ -63,11 +63,13 @@ def display_results():
 
     if to > len(results):
         to = (int(len(st.session_state.results) / 10) * 10) + len(st.session_state.results) % 10
-        
-    st.caption(f'Number of results: {len(st.session_state.results)}')
+    
+    with col1:
+        st.caption(f'Number of results: {len(st.session_state.results)}')
     
     if len(st.session_state.results) > 0:
-        st.caption(f'Display results {fr} - {to}')
+        with col2:
+            st.caption(f'Display results {fr} - {to}')
     
     i = 0
     for item in results:
@@ -134,11 +136,11 @@ def main():
         
     if term:
         col1, col2, col3, col4 = st.columns(4)
-        with col2:
+        with col3:
             if st.button('<<', key="prev1"):
                 if st.session_state.page_num > 1:
                     st.session_state.page_num -= 1
-        with col3:
+        with col4:
             if st.button(f"\>\>", key="next1"):
                 if len(st.session_state.results) % 10 > 0:
                     if st.session_state.page_num + 1 <= int(len(st.session_state.results) / 10) + 1:
@@ -147,12 +149,12 @@ def main():
                     if st.session_state.page_num + 1 <= int(len(st.session_state.results) / 10):
                         st.session_state.page_num += 1
                 
-                
+
         if 'results' not in st.session_state:
             st.session_state.results = search(term)
         
         norm_data()
-        display_results()
+        display_results(col1, col2)
 
 
 if __name__ == '__main__':
