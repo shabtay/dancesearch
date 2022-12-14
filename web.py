@@ -1,6 +1,7 @@
 import sys
 import streamlit as st
 import mysql.connector
+import re
 
 from urllib.parse import urlparse
 import configparser
@@ -24,6 +25,7 @@ def init_vars():
 
     
 def search( full_term ):
+    print( "in search" )
     mydb = mysql.connector.connect(
         host = st.secrets['Host'],
         port = st.secrets['Port'],
@@ -39,9 +41,12 @@ def search( full_term ):
     terms_len = len(terms) - 1
     
     full_term = ' '.join(terms)
+
+    to = st.session_state.page_num * 10
+    fr = to - 9
     
     mycursor = mydb.cursor(dictionary=True)
-    mycursor.execute(f"SELECT DISTINCT(id), u.url, u.image_url, u.name, u.from_date, u.flocation, u.org_name, MATCH (name) AGAINST ('{full_term}' IN BOOLEAN MODE) AS score FROM urls u WHERE NOW()<from_date and MATCH (name) AGAINST ('{full_term}' IN BOOLEAN MODE) > 0 ORDER BY `score` DESC, from_date ASC;")
+    mycursor.execute(f"SELECT u.url, u.image_url, u.name, u.dance_type, u.from_date, u.flocation, u.org_name, MATCH (name) AGAINST ('{full_term}' IN BOOLEAN MODE) AS score FROM urls u WHERE NOW()<from_date and MATCH (name) AGAINST ('{full_term}' IN BOOLEAN MODE) > 0 ORDER BY `score` DESC, from_date ASC;")
     myresult = mycursor.fetchall()
 
     mydb.close()
@@ -49,34 +54,68 @@ def search( full_term ):
     return( myresult )
 
 
-def display_results( results ):
+def display_results():
+    results = st.session_state.results
     displayed = {}
 
     to = st.session_state.page_num * 10
     fr = to - 9
 
+    if to > len(results):
+        to = (int(len(st.session_state.results) / 10) * 10) + len(st.session_state.results) % 10
+        
     st.caption(f'Display results {fr} - {to}')
+    print(f'Display results {fr} - {to}')
     
     i = 0
     for item in results:
         i += 1
         if i >= fr and i <= to:
-            if item["url"] not in displayed:
-                img = urlparse( item["image_url"] )
-                clean_img_url = f"{img.scheme}://{img.netloc}{img.path}"
-                with st.container():
-                    col1, col2 = st.columns([3,7])
-                    parsed = urlparse(item["url"])
-                    with col1:
-                        st.image(clean_img_url, width=100)
-                    with col2:
-                        st.write(f'**Festival:** [{item["org_name"].title()}]({item["url"]})')
-                        st.write(f'**Date:** {item["from_date"]}')
-                        st.write(f'**Location:** {item["flocation"]}')
-                        st.caption(f'{parsed.scheme}://{parsed.netloc}')
-                
-                st.write("<hr />", unsafe_allow_html=True)
-                displayed[item["url"]] = 1
+#            if item["url"] not in displayed:
+            img = urlparse( item["image_url"] )
+            clean_img_url = f"{img.scheme}://{img.netloc}{img.path}"
+            with st.container():
+                col1, col2 = st.columns([3,7])
+                parsed = urlparse(item["url"])
+                with col1:
+                    st.image(clean_img_url, width=100)
+                    st.caption( re.sub(r'[\+]', ' ', item['dance_type']).title() )
+                with col2:
+                    st.write(f'**Name:** [{item["org_name"].title()}]({item["url"]})')
+                    st.write(f'**Date:** {item["from_date"]}')
+                    st.write(f'**Location:** {item["flocation"]}')
+                    st.caption(f'{parsed.scheme}://{parsed.netloc}')
+            
+            st.write("<hr />", unsafe_allow_html=True)
+#                displayed[item["url"]] = 1
+
+def norm_data():
+    results = st.session_state.results
+    index_to_del = []
+    
+    print( "org len: " + str(len( results )) )
+    i = 0
+    while i <= len( results ) - 2:
+        j = i + 1
+        if ( i not in index_to_del ):
+            while j <= len( results ) - 1:
+                if results[i]['org_name'] == results[j]['org_name']:
+                    results[i]['dance_type'] += f", {results[j]['dance_type']}"
+                    index_to_del.insert(0,j)
+                j += 1
+        i += 1
+    
+    index_to_del.sort(reverse=True)
+    print( index_to_del )
+
+    i = 0
+    while i < len( index_to_del ):
+        item = index_to_del[i]
+        print( item )
+        i += 1
+        results.pop(item)
+        
+    st.session_state.results = results
 
 
 def main():
@@ -91,25 +130,31 @@ def main():
         st.session_state.glob_term = term
         st.session_state.page_num = 1
         
+        if 'results' in st.session_state:
+            del st.session_state.results
+        
     if term:
-        col1, col2, col3, col4, col5 = st.columns(5)
-        with col1:
-            if st.button('<<'):
+        col1, col2, col3, col4 = st.columns(4)
+        with col2:
+            if st.button('<<', key="prev1"):
                 if st.session_state.page_num > 1:
                     st.session_state.page_num -= 1
-        with col2:
-            if st.button(f"\>\>"):
-                st.session_state.page_num += 1
         with col3:
-            pass
-        with col4:
-            pass
-        with col5:
-            pass
-
-        results = search(term)
-        st.caption(f'Number of results: {len(results)}')
-        display_results( results )
+            if st.button(f"\>\>", key="next1"):
+                if len(st.session_state.results) % 10 > 0:
+                    if st.session_state.page_num + 1 <= int(len(st.session_state.results) / 10) + 1:
+                        st.session_state.page_num += 1
+                else:
+                    if st.session_state.page_num + 1 <= int(len(st.session_state.results) / 10):
+                        st.session_state.page_num += 1
+                
+                
+        if 'results' not in st.session_state:
+            st.session_state.results = search(term)
+        
+        norm_data()
+        st.caption(f'Number of results: {len(st.session_state.results)}')
+        display_results()
 
 
 if __name__ == '__main__':
