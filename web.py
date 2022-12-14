@@ -64,8 +64,10 @@ def display_results():
     if to > len(results):
         to = (int(len(st.session_state.results) / 10) * 10) + len(st.session_state.results) % 10
         
-    st.caption(f'Display results {fr} - {to}')
-    print(f'Display results {fr} - {to}')
+    st.caption(f'Number of results: {len(st.session_state.results)}')
+    
+    if len(st.session_state.results) > 0:
+        st.caption(f'Display results {fr} - {to}')
     
     i = 0
     for item in results:
@@ -124,8 +126,7 @@ def main():
         
     st.title( 'Festivals Search Engine' )
 
-    term = st.text_input('Enter search words:')
-    
+    term = st.text_input('Enter search words (ex. "bachata spain", "salsa jan 2023", "madrid", "kizomba may"):')
     if st.session_state.glob_term != term:
         st.session_state.glob_term = term
         st.session_state.page_num = 1
@@ -153,7 +154,6 @@ def main():
             st.session_state.results = search(term)
         
         norm_data()
-        st.caption(f'Number of results: {len(st.session_state.results)}')
         display_results()
 
 
