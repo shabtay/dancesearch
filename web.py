@@ -26,7 +26,6 @@ def init_vars():
 
     
 def search( full_term ):
-    print( "in search" )
     mydb = mysql.connector.connect(
         host = st.secrets['Host'],
         port = st.secrets['Port'],
@@ -97,7 +96,6 @@ def norm_data():
     results = st.session_state.results
     index_to_del = []
     
-    print( "org len: " + str(len( results )) )
     i = 0
     while i <= len( results ) - 2:
         j = i + 1
@@ -110,12 +108,10 @@ def norm_data():
         i += 1
     
     index_to_del.sort(reverse=True)
-    print( index_to_del )
 
     i = 0
     while i < len( index_to_del ):
         item = index_to_del[i]
-        print( item )
         i += 1
         results.pop(item)
         
