@@ -92,7 +92,7 @@ def main():
         st.session_state.page_num = 1
         
     if term:
-        col1, col2 = st.columns(2)
+        col1, col2, col3, col4, col5 = st.columns(5)
         with col1:
             if st.button('<<'):
                 if st.session_state.page_num > 1:
@@ -100,6 +100,12 @@ def main():
         with col2:
             if st.button(f"\>\>"):
                 st.session_state.page_num += 1
+        with col3:
+            pass
+        with col4:
+            pass
+        with col5:
+            pass
 
         results = search(term)
         st.caption(f'Number of results: {len(results)}')
