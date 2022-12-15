@@ -104,9 +104,10 @@ def display_results(col1, col2):
         if url.find('goandance') > -1:
             r = requests.get(url)
             soup = BeautifulSoup(r.content, 'html5lib')
-            price = soup.find('span', attrs = {'class':'final-price'}).text
+            price = soup.find('span', attrs = {'class':'final-price'})
             if price:
-                price_ph[url].write( f'**Price:** {price}' )
+                if price.text != "0€":
+                    price_ph[url].write( f'**Price:** {price.text}' )
              
 
 def norm_data():
