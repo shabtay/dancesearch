@@ -5,10 +5,8 @@ import re
 from dateutil.parser import parse
 from urllib.parse import urlparse
 import time
-from PIL import Image
 
 import configparser
-
 
 config = configparser.ConfigParser()
 config.sections()
@@ -96,7 +94,6 @@ def display_results(col1, col2):
                     st.caption(f'{parsed.scheme}://{parsed.netloc}')
             
             st.write("<hr />", unsafe_allow_html=True)
-#                displayed[item["url"]] = 1
 
 def norm_data():
     results = st.session_state.results
@@ -138,7 +135,6 @@ def main():
         
     term = st.text_input('**Enter search words:**', placeholder='(ex. "bachata spain", "salsa jan 2023", "madrid", "kizomba may")')
     st.write("")
-#    st.caption(f'ex. "bachata spain", "salsa jan 2023", "madrid", "kizomba may"')
 
     if st.session_state.glob_term != term:
         st.session_state.glob_term = term
