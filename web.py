@@ -5,6 +5,8 @@ import re
 from dateutil.parser import parse
 from urllib.parse import urlparse
 import time
+import requests
+from bs4 import BeautifulSoup
 
 import configparser
 
@@ -55,6 +57,7 @@ def search( full_term ):
 
 
 def display_results(col1, col2):
+    price_ph = {}
     results = st.session_state.results
     displayed = {}
 
@@ -81,19 +84,37 @@ def display_results(col1, col2):
             img = urlparse( item["image_url"] )
             clean_img_url = f"{img.scheme}://{img.netloc}{img.path}"
             with st.container():
-                col1, col2 = st.columns([3,7])
+                #col1, col2 = st.columns([3,7])
                 parsed = urlparse(item["url"])
+                d = parse(str(item["from_date"])).strftime('%d %b %Y')
+                #with col1:
+                #    st.image(clean_img_url, width=100)
+                #    st.caption( re.sub(r'[\+]', ' ', item['dance_type']).title() )
+               # with col2:
+                st.info(f'[{item["org_name"].title()}]({item["url"]})')
+                col1, col2, col3, col4 = st.columns(4)
                 with col1:
                     st.image(clean_img_url, width=100)
                     st.caption( re.sub(r'[\+]', ' ', item['dance_type']).title() )
                 with col2:
-                    d = parse(str(item["from_date"])).strftime('%d %b %Y')
-                    st.write(f'**Name:** [{item["org_name"].title()}]({item["url"]})')
                     st.write(f'**Date:** {d}')
+                with col3:
                     st.write(f'**Location:** {item["flocation"]}')
-                    st.caption(f'{parsed.scheme}://{parsed.netloc}')
+                with col4:
+                    price_ph[item["url"]] = st.empty()
+                #st.caption(f'{parsed.scheme}://{parsed.netloc}')
             
             st.write("<hr />", unsafe_allow_html=True)
+            #st.write("")
+            
+    for url in price_ph:
+        if url.find('goandance') > -1:
+            r = requests.get(url)
+            soup = BeautifulSoup(r.content, 'html5lib')
+            price = soup.find('span', attrs = {'class':'final-price'}).text
+            if price:
+                price_ph[url].write( f'**Price:** {price}' )
+             
 
 def norm_data():
     results = st.session_state.results
