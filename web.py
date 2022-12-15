@@ -4,6 +4,8 @@ import mysql.connector
 import re
 from dateutil.parser import parse
 from urllib.parse import urlparse
+import time
+from PIL import Image
 
 import configparser
 
@@ -65,11 +67,13 @@ def display_results(col1, col2):
         to = (int(len(st.session_state.results) / 10) * 10) + len(st.session_state.results) % 10
     
     with col1:
-        st.caption(f'Number of results: {len(st.session_state.results)}')
+        st.caption(f'**Found {len(st.session_state.results)} results**')
     
     if len(st.session_state.results) > 0:
         with col2:
-            st.caption(f'Display results {fr} - {to}')
+            st.caption(f'**Display results {fr} - {to}**')
+    
+    st.write("<hr />", unsafe_allow_html=True)
     
     i = 0
     for item in results:
@@ -123,10 +127,19 @@ def norm_data():
 def main():
     if 'page_num' not in st.session_state:
         init_vars()
-        
-    st.title( 'Festivals Search Engine' )
 
-    term = st.text_input('Enter search words (ex. "bachata spain", "salsa jan 2023", "madrid", "kizomba may"):')
+    c1, c2, c3 = st.columns([1,2,1])
+    with c1:
+        st.write("")
+    with c2:
+        st.image("latinfest.png", width=300)
+    with c3:
+        st.write("")
+        
+    term = st.text_input('**Enter search words:**', placeholder='(ex. "bachata spain", "salsa jan 2023", "madrid", "kizomba may")')
+    st.write("")
+#    st.caption(f'ex. "bachata spain", "salsa jan 2023", "madrid", "kizomba may"')
+
     if st.session_state.glob_term != term:
         st.session_state.glob_term = term
         st.session_state.page_num = 1
@@ -135,13 +148,22 @@ def main():
             del st.session_state.results
         
     if term:
+        my_bar = st.progress(0)
+        percent_complete = 10
+        while percent_complete < 100:
+            time.sleep(0.1)
+            my_bar.progress(percent_complete)
+            percent_complete += 10
+            
+        my_bar.empty()
+        
         col1, col2, col3, col4 = st.columns(4)
         with col3:
-            if st.button('<<', key="prev1"):
+            if st.button('Prev', key="prev1"):
                 if st.session_state.page_num > 1:
                     st.session_state.page_num -= 1
         with col4:
-            if st.button(f"\>\>", key="next1"):
+            if st.button('Next', key="next1"):
                 if len(st.session_state.results) % 10 > 0:
                     if st.session_state.page_num + 1 <= int(len(st.session_state.results) / 10) + 1:
                         st.session_state.page_num += 1
