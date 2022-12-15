@@ -13,7 +13,7 @@ config.sections()
 config.read('cnf.ini')
 
 st.set_page_config(
-    page_title="Dance Search Engine",
+    page_title="LatinFest - Find your next dance festival",
     page_icon = ":shark:"
 )
 
@@ -133,7 +133,7 @@ def main():
     with c3:
         st.write("")
         
-    term = st.text_input('**Enter search words:**', placeholder='(ex. "bachata spain", "salsa jan 2023", "madrid", "kizomba may")')
+    term = st.text_input('**Search for your next latin festival:**', placeholder='(ex. "bachata spain", "salsa jan 2023", "madrid", "kizomba may")')
     st.write("")
 
     if st.session_state.glob_term != term:
