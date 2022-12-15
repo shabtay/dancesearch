@@ -1,6 +1,7 @@
 import mysql.connector
 import configparser
 import tomllib
+import logging
 
 import sites.goandance as gad
 import sites.bembassy as bb
@@ -13,6 +14,10 @@ config.read('cnf.ini')
 
 with open("secrets.toml", "rb") as f:
     tcnf = tomllib.load(f)
+
+logging.basicConfig(filename='app.log', filemode='a', level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
+logging.info('Starting process')
+exit()
 
 def write_results_to_db( res ):
     current_urls = {}
@@ -44,10 +49,12 @@ def write_results_to_db( res ):
             if record['url'] not in current_urls:
                 adding += 1
                 print( f"{counter}) Adding {record['org_name']} - {record['url']} to db" )
+                logging.info( f"{counter}) Adding {record['org_name']} - {record['url']} to db" )
                 mycursor.execute( sql, val )
                 mydb.commit()
     
     print( f"{adding}/{counter} records added to DB" )
+    logging.info( f"{adding}/{counter} records added to DB" )
 
 
 mydb = mysql.connector.connect(
@@ -60,15 +67,19 @@ mydb = mysql.connector.connect(
 
 res = []
 print( 'Collecting records from Goandance' )
+logging.info( 'Collecting records from Goandance' )
 if config['SITES']['Goandance'] == "1" : res.append( gad.read() )
 
 print( 'Collecting records from Bembassy' )
+logging.info( 'Collecting records from Bembassy' )
 if config['SITES']['Bembassy'] == "1" : res.append( bb.read() )
 
 print( 'Collecting records from Danceplace' )
+logging.info( 'Collecting records from Danceplace' )
 if config['SITES']['Danceplace'] == "1" : res.append( dp.read() )
 
 print( 'Collecting records from Latindancecal' )
+logging.info( 'Collecting records from Latindancecal' )
 if config['SITES']['Latindancecal'] == "1" : res.append( ldc.read() )
 
 write_results_to_db( res )
