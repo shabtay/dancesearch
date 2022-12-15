@@ -150,7 +150,7 @@ def main():
     with c1:
         st.write("")
     with c2:
-        st.image("latinfest.png", width=300)
+        st.image("LatinFest.png", width=300)
     with c3:
         st.write("")
         
