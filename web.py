@@ -7,6 +7,7 @@ from urllib.parse import urlparse
 import time
 import requests
 from bs4 import BeautifulSoup
+import streamlit.components.v1 as components
 
 import configparser
 
@@ -80,17 +81,11 @@ def display_results(col1, col2):
     for item in results:
         i += 1
         if i >= fr and i <= to:
-#            if item["url"] not in displayed:
             img = urlparse( item["image_url"] )
             clean_img_url = f"{img.scheme}://{img.netloc}{img.path}"
             with st.container():
-                #col1, col2 = st.columns([3,7])
                 parsed = urlparse(item["url"])
                 d = parse(str(item["from_date"])).strftime('%d %b %Y')
-                #with col1:
-                #    st.image(clean_img_url, width=100)
-                #    st.caption( re.sub(r'[\+]', ' ', item['dance_type']).title() )
-               # with col2:
                 st.info(f'[{item["org_name"].title()}]({item["url"]})')
                 col1, col2, col3, col4 = st.columns(4)
                 with col1:
@@ -102,10 +97,8 @@ def display_results(col1, col2):
                     st.write(f'**Location:** {item["flocation"]}')
                 with col4:
                     price_ph[item["url"]] = st.empty()
-                #st.caption(f'{parsed.scheme}://{parsed.netloc}')
-            
+
             st.write("<hr />", unsafe_allow_html=True)
-            #st.write("")
             
     for url in price_ph:
         if url.find('goandance') > -1:
