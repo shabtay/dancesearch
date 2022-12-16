@@ -17,15 +17,19 @@ with open("secrets.toml", "rb") as f:
 
 logging.basicConfig(filename='app.log', filemode='a', level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
 logging.info('Starting process')
-exit()
 
 def write_results_to_db( res ):
+    print( f"Loading current URLs from DB" )
+    logging.info( f"Loading current URLs from DB" )
     current_urls = {}
     mycursor = mydb.cursor(dictionary=True)
     mycursor.execute(f"SELECT u.url FROM urls u;")
     myresult = mycursor.fetchall()
     for url in myresult:
         current_urls[url['url']] = 1
+
+    print( f"Load {len(current_urls)} records from DB" )
+    logging.info( f"Load {len(current_urls)} records from DB" )
         
     counter = 0
     adding = 0
@@ -52,6 +56,7 @@ def write_results_to_db( res ):
                 logging.info( f"{counter}) Adding {record['org_name']} - {record['url']} to db" )
                 mycursor.execute( sql, val )
                 mydb.commit()
+                current_urls[record['url']] = 1
     
     print( f"{adding}/{counter} records added to DB" )
     logging.info( f"{adding}/{counter} records added to DB" )
