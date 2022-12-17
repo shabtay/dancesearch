@@ -2,11 +2,13 @@ import mysql.connector
 import configparser
 import tomllib
 import logging
+from datetime import date
 
 import sites.goandance as gad
 import sites.bembassy as bb
 import sites.danceplace as dp
 import sites.latindancecal as ldc
+
 
 config = configparser.ConfigParser()
 config.sections()
@@ -15,7 +17,8 @@ config.read('cnf.ini')
 with open("secrets.toml", "rb") as f:
     tcnf = tomllib.load(f)
 
-logging.basicConfig(filename='app.log', filemode='a', level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
+today = str(date.today())
+logging.basicConfig(filename=f'logs\\app_{today}.log', filemode='a', level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
 logging.info('Starting process')
 
 def write_results_to_db( res ):
