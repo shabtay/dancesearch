@@ -76,19 +76,35 @@ mydb = mysql.connector.connect(
 res = []
 print( 'Collecting records from Goandance' )
 logging.info( 'Collecting records from Goandance' )
-if config['SITES']['Goandance'] == "1" : res.append( gad.read() )
+if config['SITES']['Goandance'] == "1" : 
+    sres = gad.read()
+    print( f'Got {len(sres)} records from Goandance' )
+    logging.info( f'Got {len(sres)} records from Goandance' )
+    res.append( sres )
 
 print( 'Collecting records from Bembassy' )
 logging.info( 'Collecting records from Bembassy' )
-if config['SITES']['Bembassy'] == "1" : res.append( bb.read() )
+if config['SITES']['Bembassy'] == "1" : 
+    sres = bb.read()
+    print( f'Got {len(sres)} records from Bembassy' )
+    logging.info( f'Got {len(sres)} records from Bembassy' )
+    res.append( sres )
 
 print( 'Collecting records from Danceplace' )
 logging.info( 'Collecting records from Danceplace' )
-if config['SITES']['Danceplace'] == "1" : res.append( dp.read() )
+if config['SITES']['Danceplace'] == "1" : 
+    sres = dp.read()
+    print( f'Got {len(sres)} records from Danceplace' )
+    logging.info( f'Got {len(sres)} records from Danceplace' )
+    res.append( sres )
 
 print( 'Collecting records from Latindancecal' )
 logging.info( 'Collecting records from Latindancecal' )
-if config['SITES']['Latindancecal'] == "1" : res.append( ldc.read() )
+if config['SITES']['Latindancecal'] == "1" : 
+    sres = ldc.read()
+    print( f'Got {len(sres)} records from Latindancecal' )
+    logging.info( f'Got {len(sres)} records from Latindancecal' )
+    res.append( sres )
 
 write_results_to_db( res )
 
