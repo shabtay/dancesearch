@@ -15,6 +15,14 @@ config = configparser.ConfigParser()
 config.sections()
 config.read('cnf.ini')
 
+mydb = mysql.connector.connect(
+    host = st.secrets['Host'],
+    port = st.secrets['Port'],
+    user = st.secrets['User'],
+    password = st.secrets['Pass'],
+    database = st.secrets['DBName']
+)
+
 st.set_page_config(
     page_title="LatinFest - Find your next dance festival",
     page_icon = ":shark:"
@@ -29,14 +37,6 @@ def init_vars():
 
     
 def search( full_term ):
-    mydb = mysql.connector.connect(
-        host = st.secrets['Host'],
-        port = st.secrets['Port'],
-        user = st.secrets['User'],
-        password = st.secrets['Pass'],
-        database = st.secrets['DBName']
-    )
-
     terms = full_term.split(' ')
     for i in range(len(terms)):
         terms[i] = terms[i] + "*"
@@ -52,8 +52,6 @@ def search( full_term ):
     mycursor.execute(f"SELECT u.url, u.image_url, u.name, u.dance_type, u.from_date, u.flocation, u.org_name, MATCH (name) AGAINST ('{full_term}' IN BOOLEAN MODE) AS score FROM urls u WHERE NOW()<from_date and MATCH (name) AGAINST ('{full_term}' IN BOOLEAN MODE) > 0 ORDER BY `score` DESC, from_date ASC;")
     myresult = mycursor.fetchall()
 
-    mydb.close()
-
     return( myresult )
 
 
@@ -67,14 +65,14 @@ def display_results(col1, col2):
 
     if to > len(results):
         to = (int(len(st.session_state.results) / 10) * 10) + len(st.session_state.results) % 10
-    
+   
     with col1:
         st.caption(f'**Found {len(st.session_state.results)} results**')
     
     if len(st.session_state.results) > 0:
         with col2:
             st.caption(f'**Display results {fr} - {to}**')
-    
+      
     st.write("<hr />", unsafe_allow_html=True)
     
     i = 0
@@ -99,6 +97,8 @@ def display_results(col1, col2):
                     price_ph[item["url"]] = st.empty()
 
             st.write("<hr />", unsafe_allow_html=True)
+
+    last_update = st.empty()
             
     for url in price_ph:
         if url.find('goandance') > -1:
@@ -108,7 +108,13 @@ def display_results(col1, col2):
             if price:
                 if price.text != "0€":
                     price_ph[url].write( f'**Price:** {price.text}' )
-             
+    
+    mycursor = mydb.cursor(dictionary=True)
+    mycursor.execute(f"SELECT DISTINCT(max(ts)) as ts FROM urls;")
+    max_ts = mycursor.fetchall()
+    last_update.caption(f'**Last DB Update**: {max_ts[0]["ts"]}')
+    mydb.close()
+    
 
 def norm_data():
     results = st.session_state.results
