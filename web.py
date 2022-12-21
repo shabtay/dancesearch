@@ -37,6 +37,10 @@ def init_vars():
 
     
 def search( full_term ):
+    near = 0
+    if full_term.strip().lower() == 'nearest date':
+        near = 1
+        
     terms = full_term.split(' ')
     for i in range(len(terms)):
         terms[i] = terms[i] + "*"
@@ -49,7 +53,10 @@ def search( full_term ):
     fr = to - 9
     
     mycursor = mydb.cursor(dictionary=True)
-    mycursor.execute(f"SELECT u.url, u.image_url, u.name, u.dance_type, u.from_date, u.flocation, u.org_name, MATCH (name) AGAINST ('{full_term}' IN BOOLEAN MODE) AS score FROM urls u WHERE NOW()<from_date and MATCH (name) AGAINST ('{full_term}' IN BOOLEAN MODE) > 0 ORDER BY `score` DESC, from_date ASC;")
+    if near == 1:
+        mycursor.execute(f"SELECT u.url, u.image_url, u.name, u.dance_type, u.from_date, u.flocation, u.org_name FROM urls u WHERE NOW()<from_date ORDER BY from_date ASC;")
+    else: 
+        mycursor.execute(f"SELECT u.url, u.image_url, u.name, u.dance_type, u.from_date, u.flocation, u.org_name, MATCH (name) AGAINST ('{full_term}' IN BOOLEAN MODE) AS score FROM urls u WHERE NOW()<from_date and MATCH (name) AGAINST ('{full_term}' IN BOOLEAN MODE) > 0 ORDER BY `score` DESC, from_date ASC;")
     myresult = mycursor.fetchall()
 
     return( myresult )
@@ -154,7 +161,7 @@ def main():
     with c3:
         st.write("")
         
-    term = st.text_input('**Search for your next latin festival:**', placeholder='(ex. "bachata spain", "salsa jan 2023", "madrid", "kizomba may")')
+    term = st.text_input('**Search for your next latin festival:**', placeholder='(ex. "bachata spain", "salsa jan 2023", "madrid", "kizomba may", "nearest date")')
     st.write("")
 
     if st.session_state.glob_term != term:
