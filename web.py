@@ -59,7 +59,7 @@ def search( full_term ):
     if action == 1:
         mycursor.execute(f"SELECT u.url, u.image_url, u.name, u.dance_type, u.from_date, u.flocation, u.org_name FROM urls u WHERE NOW()<from_date ORDER BY from_date ASC LIMIT 50;")
     elif action == 2:
-        mycursor.execute(f"SELECT u.url, u.image_url, u.name, u.dance_type, u.from_date, u.flocation, u.org_name FROM urls u WHERE NOW()<from_date ORDER BY ts DESC LIMIT 50;")
+        mycursor.execute(f"SELECT u.ts, u.url, u.image_url, u.name, u.dance_type, u.from_date, u.flocation, u.org_name FROM urls u WHERE NOW()<from_date ORDER BY ts DESC LIMIT 50;")
     else: 
         mycursor.execute(f"SELECT u.url, u.image_url, u.name, u.dance_type, u.from_date, u.flocation, u.org_name, MATCH (name) AGAINST ('{full_term}' IN BOOLEAN MODE) AS score FROM urls u WHERE NOW()<from_date and MATCH (name) AGAINST ('{full_term}' IN BOOLEAN MODE) > 0 ORDER BY `score` DESC, from_date ASC;")
     myresult = mycursor.fetchall()
