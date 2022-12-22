@@ -166,7 +166,7 @@ def main():
     with c3:
         st.write("")
         
-    term = st.text_input('**Search for your next latin festival:**', placeholder='(ex. "bachata spain", "salsa jan 2023", "madrid", "kizomba may", "nearest date")')
+    term = st.text_input('**Search for your next latin festival:**', placeholder='(ex. "bachata spain", "salsa jan 2023", "madrid", "kizomba may", "nearest date", "last index")')
     st.write("")
 
     if st.session_state.glob_term != term:
