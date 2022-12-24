@@ -1,0 +1,1165 @@
+18-Dec-22 00:00:03 - root - INFO - Starting process
+18-Dec-22 00:00:03 - root - INFO - Collecting records from Goandance
+18-Dec-22 00:00:03 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 00:00:04 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=18%2C3%2C16 HTTP/1.1" 301 None
+18-Dec-22 00:00:04 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 00:00:04 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 00:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 00:00:05 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 00:00:06 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/2?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 00:00:06 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 00:00:06 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 301 None
+18-Dec-22 00:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 00:00:07 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 00:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 00:00:08 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 00:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 301 None
+18-Dec-22 00:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 200 None
+18-Dec-22 00:00:09 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 00:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=8%2C51%2C49 HTTP/1.1" 301 None
+18-Dec-22 00:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=8%2C51%2C49 HTTP/1.1" 200 None
+18-Dec-22 00:00:10 - root - INFO - Collecting records from Bembassy
+18-Dec-22 00:00:10 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 00:00:11 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/ HTTP/1.1" 200 17707
+18-Dec-22 00:00:11 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 00:00:12 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/page/2/ HTTP/1.1" 200 16069
+18-Dec-22 00:00:12 - root - INFO - Collecting records from Danceplace
+18-Dec-22 00:00:12 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 00:00:13 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Bachata/-/- HTTP/1.1" 200 24559
+18-Dec-22 00:00:14 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 00:00:14 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Salsa/-/- HTTP/1.1" 200 22357
+18-Dec-22 00:00:15 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 00:00:16 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Kizomba/-/- HTTP/1.1" 200 27531
+18-Dec-22 00:00:17 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 00:00:17 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Brazilian+Zouk/-/- HTTP/1.1" 200 17328
+18-Dec-22 00:00:18 - root - INFO - Collecting records from Latindancecal
+18-Dec-22 00:00:18 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 00:00:19 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/bachata/ HTTP/1.1" 200 None
+18-Dec-22 00:00:19 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 00:00:20 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/salsa/ HTTP/1.1" 200 None
+18-Dec-22 00:00:21 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 00:00:24 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/kizomba/ HTTP/1.1" 200 None
+18-Dec-22 00:00:25 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 00:00:28 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/zouk/ HTTP/1.1" 200 None
+18-Dec-22 00:00:28 - root - INFO - Loading current URLs from DB
+18-Dec-22 00:00:29 - root - INFO - Load 491 records from DB
+18-Dec-22 00:03:07 - root - INFO - 0/822 records added to DB
+18-Dec-22 01:00:03 - root - INFO - Starting process
+18-Dec-22 01:00:03 - root - INFO - Collecting records from Goandance
+18-Dec-22 01:00:03 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 01:00:04 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=18%2C3%2C16 HTTP/1.1" 301 None
+18-Dec-22 01:00:04 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 01:00:04 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 01:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 01:00:05 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 01:00:06 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/2?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 01:00:06 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 01:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 301 None
+18-Dec-22 01:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 01:00:07 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 01:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 01:00:08 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 01:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 301 None
+18-Dec-22 01:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 200 None
+18-Dec-22 01:00:09 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 01:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=8%2C51%2C49 HTTP/1.1" 301 None
+18-Dec-22 01:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=8%2C51%2C49 HTTP/1.1" 200 None
+18-Dec-22 01:00:10 - root - INFO - Collecting records from Bembassy
+18-Dec-22 01:00:10 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 01:00:15 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/ HTTP/1.1" 200 17707
+18-Dec-22 01:00:16 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 01:00:17 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/page/2/ HTTP/1.1" 200 16069
+18-Dec-22 01:00:17 - root - INFO - Collecting records from Danceplace
+18-Dec-22 01:00:17 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 01:00:18 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Bachata/-/- HTTP/1.1" 200 24556
+18-Dec-22 01:00:19 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 01:00:20 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Salsa/-/- HTTP/1.1" 200 22356
+18-Dec-22 01:00:22 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 01:00:23 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Kizomba/-/- HTTP/1.1" 200 27532
+18-Dec-22 01:00:24 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 01:00:24 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Brazilian+Zouk/-/- HTTP/1.1" 200 17328
+18-Dec-22 01:00:25 - root - INFO - Collecting records from Latindancecal
+18-Dec-22 01:00:25 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 01:00:26 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/bachata/ HTTP/1.1" 200 None
+18-Dec-22 01:00:26 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 01:00:27 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/salsa/ HTTP/1.1" 200 None
+18-Dec-22 01:00:28 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 01:00:29 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/kizomba/ HTTP/1.1" 200 None
+18-Dec-22 01:00:29 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 01:00:30 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/zouk/ HTTP/1.1" 200 None
+18-Dec-22 01:00:31 - root - INFO - Loading current URLs from DB
+18-Dec-22 01:00:32 - root - INFO - Load 491 records from DB
+18-Dec-22 01:03:14 - root - INFO - 0/822 records added to DB
+18-Dec-22 02:00:03 - root - INFO - Starting process
+18-Dec-22 02:00:03 - root - INFO - Collecting records from Goandance
+18-Dec-22 02:00:03 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 02:00:04 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=18%2C3%2C16 HTTP/1.1" 301 None
+18-Dec-22 02:00:04 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 02:00:04 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 02:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 02:00:06 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 02:00:06 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/2?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 02:00:06 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 02:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 301 None
+18-Dec-22 02:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 02:00:08 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 02:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 02:00:08 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 02:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 301 None
+18-Dec-22 02:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 200 None
+18-Dec-22 02:00:09 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 02:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=8%2C51%2C49 HTTP/1.1" 301 None
+18-Dec-22 02:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=8%2C51%2C49 HTTP/1.1" 200 None
+18-Dec-22 02:00:11 - root - INFO - Collecting records from Bembassy
+18-Dec-22 02:00:11 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 02:00:11 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/ HTTP/1.1" 200 17707
+18-Dec-22 02:00:12 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 02:00:12 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/page/2/ HTTP/1.1" 200 16069
+18-Dec-22 02:00:13 - root - INFO - Collecting records from Danceplace
+18-Dec-22 02:00:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 02:00:14 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Bachata/-/- HTTP/1.1" 200 24556
+18-Dec-22 02:00:15 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 02:00:15 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Salsa/-/- HTTP/1.1" 200 22357
+18-Dec-22 02:00:16 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 02:00:17 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Kizomba/-/- HTTP/1.1" 200 27531
+18-Dec-22 02:00:17 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 02:00:18 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Brazilian+Zouk/-/- HTTP/1.1" 200 17328
+18-Dec-22 02:00:19 - root - INFO - Collecting records from Latindancecal
+18-Dec-22 02:00:19 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 02:00:19 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/bachata/ HTTP/1.1" 200 None
+18-Dec-22 02:00:20 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 02:00:21 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/salsa/ HTTP/1.1" 200 None
+18-Dec-22 02:00:22 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 02:00:23 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/kizomba/ HTTP/1.1" 200 None
+18-Dec-22 02:00:23 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 02:00:24 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/zouk/ HTTP/1.1" 200 None
+18-Dec-22 02:00:25 - root - INFO - Loading current URLs from DB
+18-Dec-22 02:00:25 - root - INFO - Load 491 records from DB
+18-Dec-22 02:03:09 - root - INFO - 0/822 records added to DB
+18-Dec-22 03:00:03 - root - INFO - Starting process
+18-Dec-22 03:00:03 - root - INFO - Collecting records from Goandance
+18-Dec-22 03:00:03 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 03:00:04 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=18%2C3%2C16 HTTP/1.1" 301 None
+18-Dec-22 03:00:04 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 03:00:04 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 03:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 03:00:05 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 03:00:06 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/2?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 03:00:06 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 03:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 301 None
+18-Dec-22 03:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 03:00:07 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 03:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 03:00:08 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 03:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 301 None
+18-Dec-22 03:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 200 None
+18-Dec-22 03:00:10 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 03:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=8%2C51%2C49 HTTP/1.1" 301 None
+18-Dec-22 03:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=8%2C51%2C49 HTTP/1.1" 200 None
+18-Dec-22 03:00:11 - root - INFO - Collecting records from Bembassy
+18-Dec-22 03:00:11 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 03:00:11 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/ HTTP/1.1" 200 17707
+18-Dec-22 03:00:12 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 03:00:13 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/page/2/ HTTP/1.1" 200 16069
+18-Dec-22 03:00:13 - root - INFO - Collecting records from Danceplace
+18-Dec-22 03:00:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 03:00:14 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Bachata/-/- HTTP/1.1" 200 24559
+18-Dec-22 03:00:15 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 03:00:15 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Salsa/-/- HTTP/1.1" 200 22357
+18-Dec-22 03:00:16 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 03:00:17 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Kizomba/-/- HTTP/1.1" 200 27532
+18-Dec-22 03:00:18 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 03:00:18 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Brazilian+Zouk/-/- HTTP/1.1" 200 17330
+18-Dec-22 03:00:19 - root - INFO - Collecting records from Latindancecal
+18-Dec-22 03:00:19 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 03:00:22 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/bachata/ HTTP/1.1" 200 None
+18-Dec-22 03:00:23 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 03:00:26 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/salsa/ HTTP/1.1" 200 None
+18-Dec-22 03:00:27 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 03:00:28 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/kizomba/ HTTP/1.1" 200 None
+18-Dec-22 03:00:28 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 03:00:31 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/zouk/ HTTP/1.1" 200 None
+18-Dec-22 03:00:32 - root - INFO - Loading current URLs from DB
+18-Dec-22 03:00:32 - root - INFO - Load 491 records from DB
+18-Dec-22 03:03:16 - root - INFO - 0/822 records added to DB
+18-Dec-22 04:00:03 - root - INFO - Starting process
+18-Dec-22 04:00:04 - root - INFO - Collecting records from Goandance
+18-Dec-22 04:00:04 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 04:00:04 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=18%2C3%2C16 HTTP/1.1" 301 None
+18-Dec-22 04:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 04:00:05 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 04:00:06 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 04:00:06 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 04:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/2?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 04:00:07 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 04:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 301 None
+18-Dec-22 04:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 04:00:08 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 04:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 04:00:09 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 04:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 301 None
+18-Dec-22 04:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 200 None
+18-Dec-22 04:00:10 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 04:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=8%2C51%2C49 HTTP/1.1" 301 None
+18-Dec-22 04:00:11 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=8%2C51%2C49 HTTP/1.1" 200 None
+18-Dec-22 04:00:11 - root - INFO - Collecting records from Bembassy
+18-Dec-22 04:00:11 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 04:00:12 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/ HTTP/1.1" 200 17707
+18-Dec-22 04:00:12 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 04:00:13 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/page/2/ HTTP/1.1" 200 16069
+18-Dec-22 04:00:13 - root - INFO - Collecting records from Danceplace
+18-Dec-22 04:00:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 04:00:14 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Bachata/-/- HTTP/1.1" 200 24555
+18-Dec-22 04:00:15 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 04:00:15 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Salsa/-/- HTTP/1.1" 200 22357
+18-Dec-22 04:00:16 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 04:00:17 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Kizomba/-/- HTTP/1.1" 200 27530
+18-Dec-22 04:00:18 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 04:00:19 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Brazilian+Zouk/-/- HTTP/1.1" 200 17330
+18-Dec-22 04:00:19 - root - INFO - Collecting records from Latindancecal
+18-Dec-22 04:00:19 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 04:00:20 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/bachata/ HTTP/1.1" 200 None
+18-Dec-22 04:00:21 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 04:00:22 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/salsa/ HTTP/1.1" 200 None
+18-Dec-22 04:00:22 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 04:00:23 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/kizomba/ HTTP/1.1" 200 None
+18-Dec-22 04:00:24 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 04:00:25 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/zouk/ HTTP/1.1" 200 None
+18-Dec-22 04:00:25 - root - INFO - Loading current URLs from DB
+18-Dec-22 04:00:26 - root - INFO - Load 491 records from DB
+18-Dec-22 04:03:06 - root - INFO - 0/822 records added to DB
+18-Dec-22 05:00:03 - root - INFO - Starting process
+18-Dec-22 05:00:04 - root - INFO - Collecting records from Goandance
+18-Dec-22 05:00:04 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 05:00:04 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=18%2C3%2C16 HTTP/1.1" 301 None
+18-Dec-22 05:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 05:00:05 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 05:00:06 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 05:00:06 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 05:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/2?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 05:00:07 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 05:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 301 None
+18-Dec-22 05:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 05:00:08 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 05:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 05:00:09 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 05:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 301 None
+18-Dec-22 05:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 200 None
+18-Dec-22 05:00:10 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 05:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=8%2C51%2C49 HTTP/1.1" 301 None
+18-Dec-22 05:00:11 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=8%2C51%2C49 HTTP/1.1" 200 None
+18-Dec-22 05:00:11 - root - INFO - Collecting records from Bembassy
+18-Dec-22 05:00:11 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 05:00:12 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/ HTTP/1.1" 200 17707
+18-Dec-22 05:00:12 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 05:00:13 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/page/2/ HTTP/1.1" 200 16069
+18-Dec-22 05:00:13 - root - INFO - Collecting records from Danceplace
+18-Dec-22 05:00:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 05:00:14 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Bachata/-/- HTTP/1.1" 200 24557
+18-Dec-22 05:00:15 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 05:00:15 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Salsa/-/- HTTP/1.1" 200 22357
+18-Dec-22 05:00:16 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 05:00:17 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Kizomba/-/- HTTP/1.1" 200 27531
+18-Dec-22 05:00:18 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 05:00:18 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Brazilian+Zouk/-/- HTTP/1.1" 200 17330
+18-Dec-22 05:00:19 - root - INFO - Collecting records from Latindancecal
+18-Dec-22 05:00:19 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 05:00:20 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/bachata/ HTTP/1.1" 200 None
+18-Dec-22 05:00:21 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 05:00:21 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/salsa/ HTTP/1.1" 200 None
+18-Dec-22 05:00:22 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 05:00:23 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/kizomba/ HTTP/1.1" 200 None
+18-Dec-22 05:00:24 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 05:00:24 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/zouk/ HTTP/1.1" 200 None
+18-Dec-22 05:00:25 - root - INFO - Loading current URLs from DB
+18-Dec-22 05:00:25 - root - INFO - Load 491 records from DB
+18-Dec-22 05:03:14 - root - INFO - 0/822 records added to DB
+18-Dec-22 06:00:03 - root - INFO - Starting process
+18-Dec-22 06:00:04 - root - INFO - Collecting records from Goandance
+18-Dec-22 06:00:04 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 06:00:04 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=18%2C3%2C16 HTTP/1.1" 301 None
+18-Dec-22 06:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 06:00:05 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 06:00:06 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 06:00:06 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 06:00:06 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/2?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 06:00:07 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 06:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 301 None
+18-Dec-22 06:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 06:00:08 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 06:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 06:00:09 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 06:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 301 None
+18-Dec-22 06:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 200 None
+18-Dec-22 06:00:10 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 06:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=8%2C51%2C49 HTTP/1.1" 301 None
+18-Dec-22 06:00:11 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=8%2C51%2C49 HTTP/1.1" 200 None
+18-Dec-22 06:00:11 - root - INFO - Collecting records from Bembassy
+18-Dec-22 06:00:11 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 06:00:12 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/ HTTP/1.1" 200 17707
+18-Dec-22 06:00:12 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 06:00:13 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/page/2/ HTTP/1.1" 200 16069
+18-Dec-22 06:00:13 - root - INFO - Collecting records from Danceplace
+18-Dec-22 06:00:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 06:00:14 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Bachata/-/- HTTP/1.1" 200 24559
+18-Dec-22 06:00:15 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 06:00:16 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Salsa/-/- HTTP/1.1" 200 22357
+18-Dec-22 06:00:16 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 06:00:17 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Kizomba/-/- HTTP/1.1" 200 27533
+18-Dec-22 06:00:18 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 06:00:18 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Brazilian+Zouk/-/- HTTP/1.1" 200 17328
+18-Dec-22 06:00:19 - root - INFO - Collecting records from Latindancecal
+18-Dec-22 06:00:19 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 06:00:22 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/bachata/ HTTP/1.1" 200 None
+18-Dec-22 06:00:23 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 06:00:23 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/salsa/ HTTP/1.1" 200 None
+18-Dec-22 06:00:24 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 06:00:27 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/kizomba/ HTTP/1.1" 200 None
+18-Dec-22 06:00:28 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 06:00:31 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/zouk/ HTTP/1.1" 200 None
+18-Dec-22 06:00:31 - root - INFO - Loading current URLs from DB
+18-Dec-22 06:00:32 - root - INFO - Load 491 records from DB
+18-Dec-22 06:03:14 - root - INFO - 0/822 records added to DB
+18-Dec-22 07:00:03 - root - INFO - Starting process
+18-Dec-22 07:00:04 - root - INFO - Collecting records from Goandance
+18-Dec-22 07:00:04 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 07:00:04 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=18%2C3%2C16 HTTP/1.1" 301 None
+18-Dec-22 07:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 07:00:05 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 07:00:06 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 07:00:06 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 07:00:06 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/2?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 07:00:07 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 07:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 301 None
+18-Dec-22 07:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 07:00:08 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 07:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 07:00:09 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 07:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 301 None
+18-Dec-22 07:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 200 None
+18-Dec-22 07:00:10 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 07:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=8%2C51%2C49 HTTP/1.1" 301 None
+18-Dec-22 07:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=8%2C51%2C49 HTTP/1.1" 200 None
+18-Dec-22 07:00:11 - root - INFO - Collecting records from Bembassy
+18-Dec-22 07:00:11 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 07:00:12 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/ HTTP/1.1" 200 17707
+18-Dec-22 07:00:12 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 07:00:13 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/page/2/ HTTP/1.1" 200 16069
+18-Dec-22 07:00:13 - root - INFO - Collecting records from Danceplace
+18-Dec-22 07:00:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 07:00:14 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Bachata/-/- HTTP/1.1" 200 24559
+18-Dec-22 07:00:15 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 07:00:15 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Salsa/-/- HTTP/1.1" 200 22356
+18-Dec-22 07:00:16 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 07:00:17 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Kizomba/-/- HTTP/1.1" 200 27532
+18-Dec-22 07:00:18 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 07:00:18 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Brazilian+Zouk/-/- HTTP/1.1" 200 17330
+18-Dec-22 07:00:19 - root - INFO - Collecting records from Latindancecal
+18-Dec-22 07:00:19 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 07:00:20 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/bachata/ HTTP/1.1" 200 None
+18-Dec-22 07:00:21 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 07:00:21 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/salsa/ HTTP/1.1" 200 None
+18-Dec-22 07:00:22 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 07:00:23 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/kizomba/ HTTP/1.1" 200 None
+18-Dec-22 07:00:24 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 07:00:24 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/zouk/ HTTP/1.1" 200 None
+18-Dec-22 07:00:25 - root - INFO - Loading current URLs from DB
+18-Dec-22 07:00:25 - root - INFO - Load 491 records from DB
+18-Dec-22 07:03:13 - root - INFO - 0/822 records added to DB
+18-Dec-22 08:00:03 - root - INFO - Starting process
+18-Dec-22 08:00:04 - root - INFO - Collecting records from Goandance
+18-Dec-22 08:00:04 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 08:00:04 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=18%2C3%2C16 HTTP/1.1" 301 None
+18-Dec-22 08:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 08:00:05 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 08:00:06 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 08:00:06 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 08:00:06 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/2?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 08:00:07 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 08:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 301 None
+18-Dec-22 08:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 08:00:08 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 08:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 08:00:09 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 08:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 301 None
+18-Dec-22 08:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 200 None
+18-Dec-22 08:00:10 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 08:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=8%2C51%2C49 HTTP/1.1" 301 None
+18-Dec-22 08:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=8%2C51%2C49 HTTP/1.1" 200 None
+18-Dec-22 08:00:11 - root - INFO - Collecting records from Bembassy
+18-Dec-22 08:00:11 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 08:00:12 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/ HTTP/1.1" 200 17707
+18-Dec-22 08:00:12 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 08:00:13 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/page/2/ HTTP/1.1" 200 16069
+18-Dec-22 08:00:13 - root - INFO - Collecting records from Danceplace
+18-Dec-22 08:00:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 08:00:14 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Bachata/-/- HTTP/1.1" 200 24556
+18-Dec-22 08:00:15 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 08:00:15 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Salsa/-/- HTTP/1.1" 200 22357
+18-Dec-22 08:00:16 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 08:00:17 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Kizomba/-/- HTTP/1.1" 200 27532
+18-Dec-22 08:00:18 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 08:00:18 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Brazilian+Zouk/-/- HTTP/1.1" 200 17330
+18-Dec-22 08:00:19 - root - INFO - Collecting records from Latindancecal
+18-Dec-22 08:00:19 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 08:00:20 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/bachata/ HTTP/1.1" 200 None
+18-Dec-22 08:00:20 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 08:00:21 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/salsa/ HTTP/1.1" 200 None
+18-Dec-22 08:00:22 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 08:00:23 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/kizomba/ HTTP/1.1" 200 None
+18-Dec-22 08:00:23 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 08:00:24 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/zouk/ HTTP/1.1" 200 None
+18-Dec-22 08:00:25 - root - INFO - Loading current URLs from DB
+18-Dec-22 08:00:25 - root - INFO - Load 491 records from DB
+18-Dec-22 08:03:06 - root - INFO - 0/822 records added to DB
+18-Dec-22 08:19:35 - root - INFO - Starting process
+18-Dec-22 08:19:36 - root - INFO - Collecting records from Goandance
+18-Dec-22 08:19:36 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 08:19:36 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=18%2C3%2C16 HTTP/1.1" 301 None
+18-Dec-22 08:19:37 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 08:19:37 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 08:19:38 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 08:19:38 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 08:19:38 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/2?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 08:19:38 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 08:19:39 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 301 None
+18-Dec-22 08:19:39 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 08:19:39 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 08:19:40 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 08:19:40 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 08:19:41 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 301 None
+18-Dec-22 08:19:41 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 200 None
+18-Dec-22 08:19:41 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 08:19:42 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=8%2C51%2C49 HTTP/1.1" 301 None
+18-Dec-22 08:19:42 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=8%2C51%2C49 HTTP/1.1" 200 None
+18-Dec-22 08:19:42 - root - INFO - Got 77 records from Goandance
+18-Dec-22 08:19:42 - root - INFO - Collecting records from Bembassy
+18-Dec-22 08:19:42 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 08:19:43 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/ HTTP/1.1" 200 17707
+18-Dec-22 08:19:43 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 08:19:44 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/page/2/ HTTP/1.1" 200 16069
+18-Dec-22 08:19:44 - root - INFO - Got 14 records from Bembassy
+18-Dec-22 08:19:44 - root - INFO - Collecting records from Danceplace
+18-Dec-22 08:19:44 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 08:19:45 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Bachata/-/- HTTP/1.1" 200 24556
+18-Dec-22 08:19:45 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 08:19:46 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Salsa/-/- HTTP/1.1" 200 22355
+18-Dec-22 08:19:47 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 08:19:47 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Kizomba/-/- HTTP/1.1" 200 27533
+18-Dec-22 08:19:48 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 08:19:49 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Brazilian+Zouk/-/- HTTP/1.1" 200 17330
+18-Dec-22 08:19:49 - root - INFO - Got 622 records from Danceplace
+18-Dec-22 08:19:49 - root - INFO - Collecting records from Latindancecal
+18-Dec-22 08:19:49 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 08:19:53 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/bachata/ HTTP/1.1" 200 None
+18-Dec-22 08:19:54 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 08:19:56 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/salsa/ HTTP/1.1" 200 None
+18-Dec-22 08:19:57 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 08:20:00 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/kizomba/ HTTP/1.1" 200 None
+18-Dec-22 08:20:00 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 08:20:04 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/zouk/ HTTP/1.1" 200 None
+18-Dec-22 08:20:04 - root - INFO - Got 109 records from Latindancecal
+18-Dec-22 08:20:04 - root - INFO - Loading current URLs from DB
+18-Dec-22 08:20:04 - root - INFO - Load 491 records from DB
+18-Dec-22 08:22:48 - root - INFO - 0/822 records added to DB
+18-Dec-22 09:00:04 - root - INFO - Starting process
+18-Dec-22 09:00:04 - root - INFO - Collecting records from Goandance
+18-Dec-22 09:00:04 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 09:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=18%2C3%2C16 HTTP/1.1" 301 None
+18-Dec-22 09:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 09:00:06 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 09:00:06 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 09:00:07 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 09:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/2?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 09:00:07 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 09:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 301 None
+18-Dec-22 09:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 09:00:08 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 09:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 09:00:09 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 09:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 301 None
+18-Dec-22 09:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 200 None
+18-Dec-22 09:00:10 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 09:00:11 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=8%2C51%2C49 HTTP/1.1" 301 None
+18-Dec-22 09:00:11 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=8%2C51%2C49 HTTP/1.1" 200 None
+18-Dec-22 09:00:12 - root - INFO - Got 77 records from Goandance
+18-Dec-22 09:00:12 - root - INFO - Collecting records from Bembassy
+18-Dec-22 09:00:12 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 09:00:12 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/ HTTP/1.1" 200 17707
+18-Dec-22 09:00:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 09:00:13 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/page/2/ HTTP/1.1" 200 16069
+18-Dec-22 09:00:14 - root - INFO - Got 14 records from Bembassy
+18-Dec-22 09:00:14 - root - INFO - Collecting records from Danceplace
+18-Dec-22 09:00:14 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 09:00:15 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Bachata/-/- HTTP/1.1" 200 24556
+18-Dec-22 09:00:15 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 09:00:16 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Salsa/-/- HTTP/1.1" 200 22357
+18-Dec-22 09:00:17 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 09:00:18 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Kizomba/-/- HTTP/1.1" 200 27532
+18-Dec-22 09:00:18 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 09:00:19 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Brazilian+Zouk/-/- HTTP/1.1" 200 17330
+18-Dec-22 09:00:20 - root - INFO - Got 622 records from Danceplace
+18-Dec-22 09:00:20 - root - INFO - Collecting records from Latindancecal
+18-Dec-22 09:00:20 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 09:00:21 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/bachata/ HTTP/1.1" 200 None
+18-Dec-22 09:00:21 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 09:00:22 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/salsa/ HTTP/1.1" 200 None
+18-Dec-22 09:00:23 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 09:00:24 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/kizomba/ HTTP/1.1" 200 None
+18-Dec-22 09:00:24 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 09:00:25 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/zouk/ HTTP/1.1" 200 None
+18-Dec-22 09:00:26 - root - INFO - Got 109 records from Latindancecal
+18-Dec-22 09:00:26 - root - INFO - Loading current URLs from DB
+18-Dec-22 09:00:26 - root - INFO - Load 491 records from DB
+18-Dec-22 09:03:17 - root - INFO - 0/822 records added to DB
+18-Dec-22 10:00:04 - root - INFO - Starting process
+18-Dec-22 10:00:04 - root - INFO - Collecting records from Goandance
+18-Dec-22 10:00:04 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 10:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=18%2C3%2C16 HTTP/1.1" 301 None
+18-Dec-22 10:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 10:00:05 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 10:00:06 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 10:00:06 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 10:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/2?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 10:00:07 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 10:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 301 None
+18-Dec-22 10:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 10:00:08 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 10:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 10:00:09 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 10:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 301 None
+18-Dec-22 10:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 200 None
+18-Dec-22 10:00:10 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 10:00:11 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=8%2C51%2C49 HTTP/1.1" 301 None
+18-Dec-22 10:00:11 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=8%2C51%2C49 HTTP/1.1" 200 None
+18-Dec-22 10:00:11 - root - INFO - Got 77 records from Goandance
+18-Dec-22 10:00:11 - root - INFO - Collecting records from Bembassy
+18-Dec-22 10:00:11 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 10:00:12 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/ HTTP/1.1" 200 17707
+18-Dec-22 10:00:12 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 10:00:13 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/page/2/ HTTP/1.1" 200 16069
+18-Dec-22 10:00:14 - root - INFO - Got 14 records from Bembassy
+18-Dec-22 10:00:14 - root - INFO - Collecting records from Danceplace
+18-Dec-22 10:00:14 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 10:00:14 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Bachata/-/- HTTP/1.1" 200 24559
+18-Dec-22 10:00:15 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 10:00:16 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Salsa/-/- HTTP/1.1" 200 22355
+18-Dec-22 10:00:17 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 10:00:17 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Kizomba/-/- HTTP/1.1" 200 27533
+18-Dec-22 10:00:18 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 10:00:19 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Brazilian+Zouk/-/- HTTP/1.1" 200 17330
+18-Dec-22 10:00:19 - root - INFO - Got 622 records from Danceplace
+18-Dec-22 10:00:19 - root - INFO - Collecting records from Latindancecal
+18-Dec-22 10:00:19 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 10:00:20 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/bachata/ HTTP/1.1" 200 None
+18-Dec-22 10:00:21 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 10:00:22 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/salsa/ HTTP/1.1" 200 None
+18-Dec-22 10:00:23 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 10:00:24 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/kizomba/ HTTP/1.1" 200 None
+18-Dec-22 10:00:24 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 10:00:25 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/zouk/ HTTP/1.1" 200 None
+18-Dec-22 10:00:25 - root - INFO - Got 109 records from Latindancecal
+18-Dec-22 10:00:25 - root - INFO - Loading current URLs from DB
+18-Dec-22 10:00:26 - root - INFO - Load 491 records from DB
+18-Dec-22 10:03:10 - root - INFO - 0/822 records added to DB
+18-Dec-22 11:00:03 - root - INFO - Starting process
+18-Dec-22 11:00:04 - root - INFO - Collecting records from Goandance
+18-Dec-22 11:00:04 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 11:00:04 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=18%2C3%2C16 HTTP/1.1" 301 None
+18-Dec-22 11:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 11:00:05 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 11:00:06 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 11:00:06 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 11:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/2?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 11:00:07 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 11:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 301 None
+18-Dec-22 11:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 11:00:08 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 11:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 11:00:09 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 11:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 301 None
+18-Dec-22 11:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 200 None
+18-Dec-22 11:00:10 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 11:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=8%2C51%2C49 HTTP/1.1" 301 None
+18-Dec-22 11:00:11 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=8%2C51%2C49 HTTP/1.1" 200 None
+18-Dec-22 11:00:11 - root - INFO - Got 77 records from Goandance
+18-Dec-22 11:00:11 - root - INFO - Collecting records from Bembassy
+18-Dec-22 11:00:11 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 11:00:12 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/ HTTP/1.1" 200 17707
+18-Dec-22 11:00:12 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 11:00:13 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/page/2/ HTTP/1.1" 200 16069
+18-Dec-22 11:00:13 - root - INFO - Got 14 records from Bembassy
+18-Dec-22 11:00:13 - root - INFO - Collecting records from Danceplace
+18-Dec-22 11:00:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 11:00:14 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Bachata/-/- HTTP/1.1" 200 24560
+18-Dec-22 11:00:15 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 11:00:15 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Salsa/-/- HTTP/1.1" 200 22357
+18-Dec-22 11:00:16 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 11:00:17 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Kizomba/-/- HTTP/1.1" 200 27532
+18-Dec-22 11:00:18 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 11:00:18 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Brazilian+Zouk/-/- HTTP/1.1" 200 17330
+18-Dec-22 11:00:19 - root - INFO - Got 622 records from Danceplace
+18-Dec-22 11:00:19 - root - INFO - Collecting records from Latindancecal
+18-Dec-22 11:00:19 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 11:00:20 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/bachata/ HTTP/1.1" 200 None
+18-Dec-22 11:00:21 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 11:00:22 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/salsa/ HTTP/1.1" 200 None
+18-Dec-22 11:00:22 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 11:00:23 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/kizomba/ HTTP/1.1" 200 None
+18-Dec-22 11:00:24 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 11:00:25 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/zouk/ HTTP/1.1" 200 None
+18-Dec-22 11:00:25 - root - INFO - Got 109 records from Latindancecal
+18-Dec-22 11:00:25 - root - INFO - Loading current URLs from DB
+18-Dec-22 11:00:26 - root - INFO - Load 491 records from DB
+18-Dec-22 11:03:09 - root - INFO - 0/822 records added to DB
+18-Dec-22 12:00:04 - root - INFO - Starting process
+18-Dec-22 12:00:04 - root - INFO - Collecting records from Goandance
+18-Dec-22 12:00:04 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 12:00:04 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=18%2C3%2C16 HTTP/1.1" 301 None
+18-Dec-22 12:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 12:00:05 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 12:00:06 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 12:00:06 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 12:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/2?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 12:00:07 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 12:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 301 None
+18-Dec-22 12:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 12:00:08 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 12:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 12:00:09 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 12:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 301 None
+18-Dec-22 12:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 200 None
+18-Dec-22 12:00:10 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 12:00:11 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=8%2C51%2C49 HTTP/1.1" 301 None
+18-Dec-22 12:00:11 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=8%2C51%2C49 HTTP/1.1" 200 None
+18-Dec-22 12:00:11 - root - INFO - Got 77 records from Goandance
+18-Dec-22 12:00:11 - root - INFO - Collecting records from Bembassy
+18-Dec-22 12:00:11 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 12:00:12 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/ HTTP/1.1" 200 17707
+18-Dec-22 12:00:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 12:00:13 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/page/2/ HTTP/1.1" 200 16069
+18-Dec-22 12:00:14 - root - INFO - Got 14 records from Bembassy
+18-Dec-22 12:00:14 - root - INFO - Collecting records from Danceplace
+18-Dec-22 12:00:14 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 12:00:15 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Bachata/-/- HTTP/1.1" 200 24555
+18-Dec-22 12:00:15 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 12:00:16 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Salsa/-/- HTTP/1.1" 200 22357
+18-Dec-22 12:00:17 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 12:00:18 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Kizomba/-/- HTTP/1.1" 200 27531
+18-Dec-22 12:00:19 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 12:00:19 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Brazilian+Zouk/-/- HTTP/1.1" 200 17328
+18-Dec-22 12:00:20 - root - INFO - Got 622 records from Danceplace
+18-Dec-22 12:00:20 - root - INFO - Collecting records from Latindancecal
+18-Dec-22 12:00:20 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 12:00:21 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/bachata/ HTTP/1.1" 200 None
+18-Dec-22 12:00:22 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 12:00:25 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/salsa/ HTTP/1.1" 200 None
+18-Dec-22 12:00:26 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 12:00:29 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/kizomba/ HTTP/1.1" 200 None
+18-Dec-22 12:00:29 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 12:00:33 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/zouk/ HTTP/1.1" 200 None
+18-Dec-22 12:00:33 - root - INFO - Got 109 records from Latindancecal
+18-Dec-22 12:00:33 - root - INFO - Loading current URLs from DB
+18-Dec-22 12:00:34 - root - INFO - Load 491 records from DB
+18-Dec-22 12:03:25 - root - INFO - 0/822 records added to DB
+18-Dec-22 13:00:04 - root - INFO - Starting process
+18-Dec-22 13:00:04 - root - INFO - Collecting records from Goandance
+18-Dec-22 13:00:04 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 13:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=18%2C3%2C16 HTTP/1.1" 301 None
+18-Dec-22 13:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 13:00:05 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 13:00:06 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 13:00:06 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 13:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/2?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 13:00:07 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 13:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 301 None
+18-Dec-22 13:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 13:00:08 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 13:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 13:00:09 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 13:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 301 None
+18-Dec-22 13:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 200 None
+18-Dec-22 13:00:10 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 13:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=8%2C51%2C49 HTTP/1.1" 301 None
+18-Dec-22 13:00:11 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=8%2C51%2C49 HTTP/1.1" 200 None
+18-Dec-22 13:00:11 - root - INFO - Got 77 records from Goandance
+18-Dec-22 13:00:11 - root - INFO - Collecting records from Bembassy
+18-Dec-22 13:00:11 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 13:00:12 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/ HTTP/1.1" 200 17707
+18-Dec-22 13:00:12 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 13:00:13 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/page/2/ HTTP/1.1" 200 16069
+18-Dec-22 13:00:13 - root - INFO - Got 14 records from Bembassy
+18-Dec-22 13:00:13 - root - INFO - Collecting records from Danceplace
+18-Dec-22 13:00:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 13:00:14 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Bachata/-/- HTTP/1.1" 200 24557
+18-Dec-22 13:00:15 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 13:00:16 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Salsa/-/- HTTP/1.1" 200 22357
+18-Dec-22 13:00:16 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 13:00:17 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Kizomba/-/- HTTP/1.1" 200 27533
+18-Dec-22 13:00:18 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 13:00:19 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Brazilian+Zouk/-/- HTTP/1.1" 200 17330
+18-Dec-22 13:00:19 - root - INFO - Got 622 records from Danceplace
+18-Dec-22 13:00:19 - root - INFO - Collecting records from Latindancecal
+18-Dec-22 13:00:19 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 13:00:20 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/bachata/ HTTP/1.1" 200 None
+18-Dec-22 13:00:21 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 13:00:22 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/salsa/ HTTP/1.1" 200 None
+18-Dec-22 13:00:23 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 13:00:24 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/kizomba/ HTTP/1.1" 200 None
+18-Dec-22 13:00:24 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 13:00:25 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/zouk/ HTTP/1.1" 200 None
+18-Dec-22 13:00:25 - root - INFO - Got 109 records from Latindancecal
+18-Dec-22 13:00:25 - root - INFO - Loading current URLs from DB
+18-Dec-22 13:00:26 - root - INFO - Load 491 records from DB
+18-Dec-22 13:03:08 - root - INFO - 0/822 records added to DB
+18-Dec-22 14:00:03 - root - INFO - Starting process
+18-Dec-22 15:00:04 - root - INFO - Starting process
+18-Dec-22 15:00:04 - root - INFO - Collecting records from Goandance
+18-Dec-22 15:00:04 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 15:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=18%2C3%2C16 HTTP/1.1" 301 None
+18-Dec-22 15:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 15:00:06 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 15:00:06 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 15:00:06 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 15:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/2?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 15:00:07 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 15:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 301 None
+18-Dec-22 15:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 15:00:09 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 15:00:13 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 15:00:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 15:00:14 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 301 None
+18-Dec-22 15:00:14 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 200 None
+18-Dec-22 15:00:14 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 15:00:15 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=8%2C51%2C49 HTTP/1.1" 301 None
+18-Dec-22 15:00:15 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=8%2C51%2C49 HTTP/1.1" 200 None
+18-Dec-22 15:00:15 - root - INFO - Got 77 records from Goandance
+18-Dec-22 15:00:15 - root - INFO - Collecting records from Bembassy
+18-Dec-22 15:00:15 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 15:00:16 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/ HTTP/1.1" 200 17707
+18-Dec-22 15:00:16 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 15:00:17 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/page/2/ HTTP/1.1" 200 16069
+18-Dec-22 15:00:17 - root - INFO - Got 14 records from Bembassy
+18-Dec-22 15:00:17 - root - INFO - Collecting records from Danceplace
+18-Dec-22 15:00:17 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 15:00:18 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Bachata/-/- HTTP/1.1" 200 24557
+18-Dec-22 15:00:19 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 15:00:20 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Salsa/-/- HTTP/1.1" 200 22355
+18-Dec-22 15:00:21 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 15:00:21 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Kizomba/-/- HTTP/1.1" 200 27533
+18-Dec-22 15:00:22 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 15:00:23 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Brazilian+Zouk/-/- HTTP/1.1" 200 17330
+18-Dec-22 15:00:23 - root - INFO - Got 622 records from Danceplace
+18-Dec-22 15:00:23 - root - INFO - Collecting records from Latindancecal
+18-Dec-22 15:00:23 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 15:00:26 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/bachata/ HTTP/1.1" 200 None
+18-Dec-22 15:00:27 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 15:00:30 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/salsa/ HTTP/1.1" 200 None
+18-Dec-22 15:00:31 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 15:00:34 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/kizomba/ HTTP/1.1" 200 None
+18-Dec-22 15:00:34 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 15:00:37 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/zouk/ HTTP/1.1" 200 None
+18-Dec-22 15:00:37 - root - INFO - Got 109 records from Latindancecal
+18-Dec-22 15:00:37 - root - INFO - Loading current URLs from DB
+18-Dec-22 15:00:38 - root - INFO - Load 491 records from DB
+18-Dec-22 15:03:30 - root - INFO - 0/822 records added to DB
+18-Dec-22 16:00:03 - root - INFO - Starting process
+18-Dec-22 16:00:04 - root - INFO - Collecting records from Goandance
+18-Dec-22 16:00:04 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 16:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=18%2C3%2C16 HTTP/1.1" 301 None
+18-Dec-22 16:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 16:00:05 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 16:00:06 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 16:00:06 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 16:00:06 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/2?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 16:00:07 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 16:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 301 None
+18-Dec-22 16:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 16:00:08 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 16:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 16:00:09 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 16:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 301 None
+18-Dec-22 16:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 200 None
+18-Dec-22 16:00:10 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 16:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=8%2C51%2C49 HTTP/1.1" 301 None
+18-Dec-22 16:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=8%2C51%2C49 HTTP/1.1" 200 None
+18-Dec-22 16:00:11 - root - INFO - Got 76 records from Goandance
+18-Dec-22 16:00:11 - root - INFO - Collecting records from Bembassy
+18-Dec-22 16:00:11 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 16:00:11 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/ HTTP/1.1" 200 17707
+18-Dec-22 16:00:12 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 16:00:12 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/page/2/ HTTP/1.1" 200 16069
+18-Dec-22 16:00:13 - root - INFO - Got 14 records from Bembassy
+18-Dec-22 16:00:13 - root - INFO - Collecting records from Danceplace
+18-Dec-22 16:00:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 16:00:14 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Bachata/-/- HTTP/1.1" 200 24557
+18-Dec-22 16:00:14 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 16:00:15 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Salsa/-/- HTTP/1.1" 200 22357
+18-Dec-22 16:00:16 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 16:00:17 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Kizomba/-/- HTTP/1.1" 200 27533
+18-Dec-22 16:00:17 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 16:00:18 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Brazilian+Zouk/-/- HTTP/1.1" 200 17328
+18-Dec-22 16:00:18 - root - INFO - Got 622 records from Danceplace
+18-Dec-22 16:00:18 - root - INFO - Collecting records from Latindancecal
+18-Dec-22 16:00:18 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 16:00:19 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/bachata/ HTTP/1.1" 200 None
+18-Dec-22 16:00:20 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 16:00:21 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/salsa/ HTTP/1.1" 200 None
+18-Dec-22 16:00:22 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 16:00:23 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/kizomba/ HTTP/1.1" 200 None
+18-Dec-22 16:00:23 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 16:00:24 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/zouk/ HTTP/1.1" 200 None
+18-Dec-22 16:00:25 - root - INFO - Got 109 records from Latindancecal
+18-Dec-22 16:00:25 - root - INFO - Loading current URLs from DB
+18-Dec-22 16:00:25 - root - INFO - Load 491 records from DB
+18-Dec-22 16:03:19 - root - INFO - 0/821 records added to DB
+18-Dec-22 17:00:04 - root - INFO - Starting process
+18-Dec-22 17:00:04 - root - INFO - Collecting records from Goandance
+18-Dec-22 17:00:04 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 17:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=18%2C3%2C16 HTTP/1.1" 301 None
+18-Dec-22 17:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 17:00:06 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 17:00:06 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 17:00:06 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 17:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/2?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 17:00:07 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 17:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 301 None
+18-Dec-22 17:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 17:00:08 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 17:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 17:00:09 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 17:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 301 None
+18-Dec-22 17:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 200 None
+18-Dec-22 17:00:10 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 17:00:11 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=8%2C51%2C49 HTTP/1.1" 301 None
+18-Dec-22 17:00:11 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=8%2C51%2C49 HTTP/1.1" 200 None
+18-Dec-22 17:00:11 - root - INFO - Got 76 records from Goandance
+18-Dec-22 17:00:11 - root - INFO - Collecting records from Bembassy
+18-Dec-22 17:00:11 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 17:00:12 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/ HTTP/1.1" 200 17707
+18-Dec-22 17:00:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 17:00:13 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/page/2/ HTTP/1.1" 200 16069
+18-Dec-22 17:00:14 - root - INFO - Got 14 records from Bembassy
+18-Dec-22 17:00:14 - root - INFO - Collecting records from Danceplace
+18-Dec-22 17:00:14 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 17:00:14 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Bachata/-/- HTTP/1.1" 200 24557
+18-Dec-22 17:00:15 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 17:00:16 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Salsa/-/- HTTP/1.1" 200 22355
+18-Dec-22 17:00:17 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 17:00:17 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Kizomba/-/- HTTP/1.1" 200 27532
+18-Dec-22 17:00:18 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 17:00:19 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Brazilian+Zouk/-/- HTTP/1.1" 200 17330
+18-Dec-22 17:00:19 - root - INFO - Got 622 records from Danceplace
+18-Dec-22 17:00:19 - root - INFO - Collecting records from Latindancecal
+18-Dec-22 17:00:19 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 17:00:20 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/bachata/ HTTP/1.1" 200 None
+18-Dec-22 17:00:21 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 17:00:22 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/salsa/ HTTP/1.1" 200 None
+18-Dec-22 17:00:23 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 17:00:23 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/kizomba/ HTTP/1.1" 200 None
+18-Dec-22 17:00:24 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 17:00:25 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/zouk/ HTTP/1.1" 200 None
+18-Dec-22 17:00:25 - root - INFO - Got 109 records from Latindancecal
+18-Dec-22 17:00:25 - root - INFO - Loading current URLs from DB
+18-Dec-22 17:00:26 - root - INFO - Load 491 records from DB
+18-Dec-22 17:03:09 - root - INFO - 0/821 records added to DB
+18-Dec-22 18:00:04 - root - INFO - Starting process
+18-Dec-22 18:00:04 - root - INFO - Collecting records from Goandance
+18-Dec-22 18:00:04 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 18:00:06 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=18%2C3%2C16 HTTP/1.1" 301 None
+18-Dec-22 18:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 18:00:07 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 18:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 18:00:10 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 18:00:11 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/2?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 18:00:11 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 18:00:12 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 301 None
+18-Dec-22 18:00:12 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 18:00:12 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 18:00:13 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 18:00:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 18:00:15 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 301 None
+18-Dec-22 18:00:15 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 200 None
+18-Dec-22 18:00:15 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 18:00:16 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=8%2C51%2C49 HTTP/1.1" 301 None
+18-Dec-22 18:00:17 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=8%2C51%2C49 HTTP/1.1" 200 None
+18-Dec-22 18:00:17 - root - INFO - Got 76 records from Goandance
+18-Dec-22 18:00:17 - root - INFO - Collecting records from Bembassy
+18-Dec-22 18:00:17 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 18:00:18 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/ HTTP/1.1" 200 17707
+18-Dec-22 18:00:20 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 18:00:21 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/page/2/ HTTP/1.1" 200 16069
+18-Dec-22 18:00:21 - root - INFO - Got 14 records from Bembassy
+18-Dec-22 18:00:21 - root - INFO - Collecting records from Danceplace
+18-Dec-22 18:00:21 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 18:00:22 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Bachata/-/- HTTP/1.1" 200 24555
+18-Dec-22 18:00:23 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 18:00:25 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Salsa/-/- HTTP/1.1" 200 22357
+18-Dec-22 18:00:26 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 18:00:27 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Kizomba/-/- HTTP/1.1" 200 27533
+18-Dec-22 18:00:31 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 18:00:31 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Brazilian+Zouk/-/- HTTP/1.1" 200 17330
+18-Dec-22 18:00:33 - root - INFO - Got 622 records from Danceplace
+18-Dec-22 18:00:33 - root - INFO - Collecting records from Latindancecal
+18-Dec-22 18:00:33 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 18:00:37 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/bachata/ HTTP/1.1" 200 None
+18-Dec-22 18:00:38 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 18:00:41 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/salsa/ HTTP/1.1" 200 None
+18-Dec-22 18:00:42 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 18:00:45 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/kizomba/ HTTP/1.1" 200 None
+18-Dec-22 18:00:45 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 18:00:48 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/zouk/ HTTP/1.1" 200 None
+18-Dec-22 18:00:49 - root - INFO - Got 109 records from Latindancecal
+18-Dec-22 18:00:49 - root - INFO - Loading current URLs from DB
+18-Dec-22 18:00:53 - root - INFO - Load 491 records from DB
+18-Dec-22 18:04:59 - root - INFO - 0/821 records added to DB
+18-Dec-22 19:00:03 - root - INFO - Starting process
+18-Dec-22 19:00:04 - root - INFO - Collecting records from Goandance
+18-Dec-22 19:00:04 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 19:00:06 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=18%2C3%2C16 HTTP/1.1" 301 None
+18-Dec-22 19:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 19:00:07 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 19:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 19:00:09 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 19:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/2?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 19:00:10 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 19:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 301 None
+18-Dec-22 19:00:11 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 19:00:11 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 19:00:11 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 19:00:12 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 19:00:12 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 301 None
+18-Dec-22 19:00:13 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 200 None
+18-Dec-22 19:00:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 19:00:14 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=8%2C51%2C49 HTTP/1.1" 301 None
+18-Dec-22 19:00:14 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=8%2C51%2C49 HTTP/1.1" 200 None
+18-Dec-22 19:00:14 - root - INFO - Got 76 records from Goandance
+18-Dec-22 19:00:14 - root - INFO - Collecting records from Bembassy
+18-Dec-22 19:00:14 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 19:00:16 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/ HTTP/1.1" 200 17707
+18-Dec-22 19:00:17 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 19:00:20 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/page/2/ HTTP/1.1" 200 16069
+18-Dec-22 19:00:20 - root - INFO - Got 14 records from Bembassy
+18-Dec-22 19:00:20 - root - INFO - Collecting records from Danceplace
+18-Dec-22 19:00:20 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 19:00:21 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Bachata/-/- HTTP/1.1" 200 24555
+18-Dec-22 19:00:22 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 19:00:23 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Salsa/-/- HTTP/1.1" 200 22357
+18-Dec-22 19:00:23 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 19:00:24 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Kizomba/-/- HTTP/1.1" 200 27530
+18-Dec-22 19:00:25 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 19:00:26 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Brazilian+Zouk/-/- HTTP/1.1" 200 17330
+18-Dec-22 19:00:26 - root - INFO - Got 622 records from Danceplace
+18-Dec-22 19:00:26 - root - INFO - Collecting records from Latindancecal
+18-Dec-22 19:00:26 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 19:00:27 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/bachata/ HTTP/1.1" 200 None
+18-Dec-22 19:00:28 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 19:00:29 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/salsa/ HTTP/1.1" 200 None
+18-Dec-22 19:00:30 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 19:00:30 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/kizomba/ HTTP/1.1" 200 None
+18-Dec-22 19:00:31 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 19:00:33 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/zouk/ HTTP/1.1" 200 None
+18-Dec-22 19:00:33 - root - INFO - Got 109 records from Latindancecal
+18-Dec-22 19:00:33 - root - INFO - Loading current URLs from DB
+18-Dec-22 19:00:35 - root - INFO - Load 491 records from DB
+18-Dec-22 19:05:35 - root - INFO - 0/821 records added to DB
+18-Dec-22 20:00:05 - root - INFO - Starting process
+18-Dec-22 20:00:05 - root - INFO - Collecting records from Goandance
+18-Dec-22 20:00:05 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 20:00:18 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=18%2C3%2C16 HTTP/1.1" 301 None
+18-Dec-22 20:00:20 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 20:00:20 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 20:00:21 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 20:00:22 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 20:00:23 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/2?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 20:00:23 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 20:00:23 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 301 None
+18-Dec-22 20:00:24 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 20:00:25 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 20:00:25 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 20:00:25 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 20:00:26 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 301 None
+18-Dec-22 20:00:27 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 200 None
+18-Dec-22 20:00:27 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 20:00:28 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=8%2C51%2C49 HTTP/1.1" 301 None
+18-Dec-22 20:00:28 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=8%2C51%2C49 HTTP/1.1" 200 None
+18-Dec-22 20:00:28 - root - INFO - Got 76 records from Goandance
+18-Dec-22 20:00:28 - root - INFO - Collecting records from Bembassy
+18-Dec-22 20:00:28 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 20:00:30 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/ HTTP/1.1" 200 17707
+18-Dec-22 20:00:32 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 20:00:32 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/page/2/ HTTP/1.1" 200 16069
+18-Dec-22 20:00:33 - root - INFO - Got 14 records from Bembassy
+18-Dec-22 20:00:33 - root - INFO - Collecting records from Danceplace
+18-Dec-22 20:00:33 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 20:00:37 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Bachata/-/- HTTP/1.1" 200 24557
+18-Dec-22 20:00:39 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 20:00:40 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Salsa/-/- HTTP/1.1" 200 22357
+18-Dec-22 20:00:41 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 20:00:43 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Kizomba/-/- HTTP/1.1" 200 27531
+18-Dec-22 20:00:44 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 20:00:44 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Brazilian+Zouk/-/- HTTP/1.1" 200 17328
+18-Dec-22 20:00:45 - root - INFO - Got 622 records from Danceplace
+18-Dec-22 20:00:45 - root - INFO - Collecting records from Latindancecal
+18-Dec-22 20:00:45 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 20:00:46 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/bachata/ HTTP/1.1" 200 None
+18-Dec-22 20:00:47 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 20:00:48 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/salsa/ HTTP/1.1" 200 None
+18-Dec-22 20:00:49 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 20:00:49 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/kizomba/ HTTP/1.1" 200 None
+18-Dec-22 20:00:50 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 20:00:51 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/zouk/ HTTP/1.1" 200 None
+18-Dec-22 20:00:52 - root - INFO - Got 109 records from Latindancecal
+18-Dec-22 20:00:52 - root - INFO - Loading current URLs from DB
+18-Dec-22 20:00:53 - root - INFO - Load 491 records from DB
+18-Dec-22 20:04:54 - root - INFO - 0/821 records added to DB
+18-Dec-22 21:00:04 - root - INFO - Starting process
+18-Dec-22 21:00:04 - root - INFO - Collecting records from Goandance
+18-Dec-22 21:00:04 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 21:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=18%2C3%2C16 HTTP/1.1" 301 None
+18-Dec-22 21:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 21:00:05 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 21:00:06 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 21:00:06 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 21:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/2?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 21:00:07 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 21:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 301 None
+18-Dec-22 21:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 21:00:08 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 21:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 21:00:09 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 21:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 301 None
+18-Dec-22 21:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 200 None
+18-Dec-22 21:00:10 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 21:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=8%2C51%2C49 HTTP/1.1" 301 None
+18-Dec-22 21:00:11 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=8%2C51%2C49 HTTP/1.1" 200 None
+18-Dec-22 21:00:11 - root - INFO - Got 76 records from Goandance
+18-Dec-22 21:00:11 - root - INFO - Collecting records from Bembassy
+18-Dec-22 21:00:11 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 21:00:12 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/ HTTP/1.1" 200 17707
+18-Dec-22 21:00:12 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 21:00:13 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/page/2/ HTTP/1.1" 200 16069
+18-Dec-22 21:00:13 - root - INFO - Got 14 records from Bembassy
+18-Dec-22 21:00:13 - root - INFO - Collecting records from Danceplace
+18-Dec-22 21:00:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 21:00:14 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Bachata/-/- HTTP/1.1" 200 24556
+18-Dec-22 21:00:15 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 21:00:16 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Salsa/-/- HTTP/1.1" 200 22355
+18-Dec-22 21:00:16 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 21:00:17 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Kizomba/-/- HTTP/1.1" 200 27533
+18-Dec-22 21:00:18 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 21:00:19 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Brazilian+Zouk/-/- HTTP/1.1" 200 17330
+18-Dec-22 21:00:19 - root - INFO - Got 622 records from Danceplace
+18-Dec-22 21:00:19 - root - INFO - Collecting records from Latindancecal
+18-Dec-22 21:00:19 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 21:00:20 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/bachata/ HTTP/1.1" 200 None
+18-Dec-22 21:00:21 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 21:00:24 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/salsa/ HTTP/1.1" 200 None
+18-Dec-22 21:00:25 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 21:00:26 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/kizomba/ HTTP/1.1" 200 None
+18-Dec-22 21:00:26 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 21:00:29 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/zouk/ HTTP/1.1" 200 None
+18-Dec-22 21:00:30 - root - INFO - Got 109 records from Latindancecal
+18-Dec-22 21:00:30 - root - INFO - Loading current URLs from DB
+18-Dec-22 21:00:30 - root - INFO - Load 491 records from DB
+18-Dec-22 21:03:31 - root - INFO - 0/821 records added to DB
+18-Dec-22 22:00:04 - root - INFO - Starting process
+18-Dec-22 22:00:04 - root - INFO - Collecting records from Goandance
+18-Dec-22 22:00:04 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 22:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=18%2C3%2C16 HTTP/1.1" 301 None
+18-Dec-22 22:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 22:00:06 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 22:00:06 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 22:00:07 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 22:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/2?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 22:00:07 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 22:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 301 None
+18-Dec-22 22:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 22:00:09 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 22:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 22:00:09 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 22:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 301 None
+18-Dec-22 22:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 200 None
+18-Dec-22 22:00:10 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 22:00:11 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=8%2C51%2C49 HTTP/1.1" 301 None
+18-Dec-22 22:00:11 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=8%2C51%2C49 HTTP/1.1" 200 None
+18-Dec-22 22:00:11 - root - INFO - Got 76 records from Goandance
+18-Dec-22 22:00:11 - root - INFO - Collecting records from Bembassy
+18-Dec-22 22:00:11 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 22:00:12 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/ HTTP/1.1" 200 17707
+18-Dec-22 22:00:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 22:00:14 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/page/2/ HTTP/1.1" 200 16069
+18-Dec-22 22:00:14 - root - INFO - Got 14 records from Bembassy
+18-Dec-22 22:00:14 - root - INFO - Collecting records from Danceplace
+18-Dec-22 22:00:14 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 22:00:15 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Bachata/-/- HTTP/1.1" 200 24560
+18-Dec-22 22:00:16 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 22:00:16 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Salsa/-/- HTTP/1.1" 200 22357
+18-Dec-22 22:00:17 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 22:00:18 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Kizomba/-/- HTTP/1.1" 200 27533
+18-Dec-22 22:00:19 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 22:00:19 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Brazilian+Zouk/-/- HTTP/1.1" 200 17330
+18-Dec-22 22:00:20 - root - INFO - Got 622 records from Danceplace
+18-Dec-22 22:00:20 - root - INFO - Collecting records from Latindancecal
+18-Dec-22 22:00:20 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 22:00:21 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/bachata/ HTTP/1.1" 200 None
+18-Dec-22 22:00:22 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 22:00:23 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/salsa/ HTTP/1.1" 200 None
+18-Dec-22 22:00:23 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 22:00:24 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/kizomba/ HTTP/1.1" 200 None
+18-Dec-22 22:00:25 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 22:00:26 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/zouk/ HTTP/1.1" 200 None
+18-Dec-22 22:00:26 - root - INFO - Got 109 records from Latindancecal
+18-Dec-22 22:00:26 - root - INFO - Loading current URLs from DB
+18-Dec-22 22:00:27 - root - INFO - Load 491 records from DB
+18-Dec-22 22:03:28 - root - INFO - 0/821 records added to DB
+18-Dec-22 23:00:04 - root - INFO - Starting process
+18-Dec-22 23:00:04 - root - INFO - Collecting records from Goandance
+18-Dec-22 23:00:04 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 23:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=18%2C3%2C16 HTTP/1.1" 301 None
+18-Dec-22 23:00:05 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 23:00:05 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 23:00:06 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 23:00:06 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 23:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/2?style=18%2C3%2C16 HTTP/1.1" 200 None
+18-Dec-22 23:00:07 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 23:00:07 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 301 None
+18-Dec-22 23:00:08 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 23:00:08 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 23:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/1?style=19%2C20%2C2%2C48%2C15%2C13%2C21%2C9%2C12%2C1%2C14%2C10%2C11 HTTP/1.1" 200 None
+18-Dec-22 23:00:09 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 23:00:09 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 301 None
+18-Dec-22 23:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=4%2C41%2C22%2C23%2C52 HTTP/1.1" 200 None
+18-Dec-22 23:00:10 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.goandance.com:443
+18-Dec-22 23:00:10 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals/?style=8%2C51%2C49 HTTP/1.1" 301 None
+18-Dec-22 23:00:11 - urllib3.connectionpool - DEBUG - https://www.goandance.com:443 "GET /en/events/festivals?style=8%2C51%2C49 HTTP/1.1" 200 None
+18-Dec-22 23:00:11 - root - INFO - Got 75 records from Goandance
+18-Dec-22 23:00:11 - root - INFO - Collecting records from Bembassy
+18-Dec-22 23:00:11 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 23:00:12 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/ HTTP/1.1" 200 17707
+18-Dec-22 23:00:12 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bachata-embassy.com:443
+18-Dec-22 23:00:13 - urllib3.connectionpool - DEBUG - https://bachata-embassy.com:443 "GET /festivals/page/2/ HTTP/1.1" 200 16069
+18-Dec-22 23:00:13 - root - INFO - Got 14 records from Bembassy
+18-Dec-22 23:00:13 - root - INFO - Collecting records from Danceplace
+18-Dec-22 23:00:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 23:00:14 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Bachata/-/- HTTP/1.1" 200 24555
+18-Dec-22 23:00:15 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 23:00:16 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Salsa/-/- HTTP/1.1" 200 22356
+18-Dec-22 23:00:16 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 23:00:17 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Kizomba/-/- HTTP/1.1" 200 27533
+18-Dec-22 23:00:18 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.danceplace.com:443
+18-Dec-22 23:00:19 - urllib3.connectionpool - DEBUG - https://www.danceplace.com:443 "GET //events/in/2023/Brazilian+Zouk/-/- HTTP/1.1" 200 17330
+18-Dec-22 23:00:19 - root - INFO - Got 622 records from Danceplace
+18-Dec-22 23:00:19 - root - INFO - Collecting records from Latindancecal
+18-Dec-22 23:00:19 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 23:00:20 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/bachata/ HTTP/1.1" 200 None
+18-Dec-22 23:00:21 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 23:00:22 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/salsa/ HTTP/1.1" 200 None
+18-Dec-22 23:00:23 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 23:00:23 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/kizomba/ HTTP/1.1" 200 None
+18-Dec-22 23:00:24 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): latindancecalendar.com:443
+18-Dec-22 23:00:25 - urllib3.connectionpool - DEBUG - https://latindancecalendar.com:443 "GET /festivals/location/europe/style/zouk/ HTTP/1.1" 200 None
+18-Dec-22 23:00:25 - root - INFO - Got 109 records from Latindancecal
+18-Dec-22 23:00:25 - root - INFO - Loading current URLs from DB
+18-Dec-22 23:00:26 - root - INFO - Load 491 records from DB
+18-Dec-22 23:03:20 - root - INFO - 0/820 records added to DB
