@@ -1,0 +1,413 @@
+commit 72dbca86fdf6202a4ddf38df44b19f6e6acc9575
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Thu Dec 22 09:51:25 2022 +0200
+
+    add last index to place holder
+
+M	web.py
+
+commit a037cf33a1fc8b9c4046be96900027ca4e73b63d
+Author: shabtay <eli.shabtay@gmail.com>
+Date:   Wed Dec 21 23:40:36 2022 +0200
+
+    add last index
+
+M	web.py
+
+commit 9f1eba5bcda7c70fca12027dadf4e87a876caed8
+Author: shabtay <eli.shabtay@gmail.com>
+Date:   Wed Dec 21 23:38:55 2022 +0200
+
+    add last index
+
+M	web.py
+
+commit 1c20f744d28c38a3b6337f6e2a6e285ce852e608
+Author: shabtay <eli.shabtay@gmail.com>
+Date:   Wed Dec 21 23:33:33 2022 +0200
+
+    add last index
+
+M	web.py
+
+commit dc79d8af42f7a12a82ccd4bdf78a7a333c79dcbc
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Wed Dec 21 14:26:00 2022 +0200
+
+    add nearest date
+
+M	web.py
+
+commit 2e89023eb76e52a67f0aca38a6380579b8d22829
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Sun Dec 18 12:25:46 2022 +0200
+
+    add last db update time
+
+M	web.py
+
+commit 1a3b3444ab6508cf857ee8362f97ec76f2e7a88d
+Author: shabtay <eli.shabtay@gmail.com>
+Date:   Sun Dec 18 08:25:10 2022 +0200
+
+    add more logging
+
+M	index_sites.py
+
+commit 26cfcee34490361d70aa721fe5119f9c6c23d36a
+Author: shabtay <eli.shabtay@gmail.com>
+Date:   Sat Dec 17 21:49:09 2022 +0200
+
+    add daily logs
+
+M	index_sites.py
+A	logs/app_2022-12-17.log
+
+commit a8328b4a5a3736229cc88d8c90f8aa3518d27d05
+Author: shabtay <eli.shabtay@gmail.com>
+Date:   Fri Dec 16 14:47:24 2022 +0200
+
+    add logging
+
+M	index_sites.py
+
+commit fd12614398e10e78b0a2a15818656983c924ab63
+Author: shabtay <eli.shabtay@gmail.com>
+Date:   Thu Dec 15 22:18:48 2022 +0200
+
+    add logging
+
+M	index_sites.py
+
+commit 29aa9ca68d7e7b25ff629e48e723b0f55cea848d
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Thu Dec 15 09:45:40 2022 +0200
+
+    fix no price bug + price=0
+
+M	web.py
+
+commit 93e68a1af44491c14905f819bb430166cc320bb4
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Thu Dec 15 09:21:23 2022 +0200
+
+    change style
+
+M	web.py
+
+commit 04e708f43852a8b1f23c2ed43a3a788faee107a8
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Thu Dec 15 08:19:02 2022 +0200
+
+    add html5lib to req file
+
+M	requirements.txt
+
+commit 5b8a1e10b31cbc19f618ea9af79b79b20d2589d3
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Thu Dec 15 08:17:08 2022 +0200
+
+    change logo name
+
+M	web.py
+
+commit 9b3b719053c243d27b45735298b38f8ebd0e0f6a
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Thu Dec 15 08:13:41 2022 +0200
+
+    add bs4 to req file
+
+M	requirements.txt
+
+commit c4d27109bc4b63ba05db5238da1b2cb1f2c95455
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Thu Dec 15 08:10:55 2022 +0200
+
+    add prices to goandance + change style
+
+M	web.py
+
+commit 70847da618639a12f463bf811d9795e9fa43847c
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Thu Dec 15 07:14:30 2022 +0200
+
+    change title
+
+M	web.py
+
+commit ee3f683afa84518c8cd2c352e00f4212525ec7ed
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Thu Dec 15 07:11:42 2022 +0200
+
+    remove PIL and some comments
+
+M	web.py
+
+commit 88740e9faac92f2d369aa1c465f89bc7cfe54f4c
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Thu Dec 15 07:09:24 2022 +0200
+
+    add logo and fix style
+
+A	LatinFest.png
+M	web.py
+
+commit 9d12faa54d2993aa3be3fca852931d821a0b4b31
+Author: shabtay <eli.shabtay@gmail.com>
+Date:   Wed Dec 14 21:14:45 2022 +0200
+
+    change style
+
+M	web.py
+
+commit 68d61f9642bafc86877dfd20663493d9c0e823bd
+Merge: 0adcfe6 86c5213
+Author: shabtay <eli.shabtay@gmail.com>
+Date:   Wed Dec 14 21:02:12 2022 +0200
+
+    Merge branch 'main' of https://github.com/shabtay/dancesearch into main
+
+commit 0adcfe6f0985a54be171b1d9c96008dd02749dee
+Author: shabtay <eli.shabtay@gmail.com>
+Date:   Wed Dec 14 21:01:11 2022 +0200
+
+    optimize index
+
+M	index_sites.py
+M	web.py
+
+commit 86c521361857e4b4340001c1c03722a99a596fb2
+Author: shabtay <eli.shabtay@gmail.com>
+Date:   Wed Dec 14 19:30:21 2022 +0200
+
+    Update README.md
+
+M	README.md
+
+commit 7d893a00b70df6d05342423faa138f992a15f566
+Author: shabtay <eli.shabtay@gmail.com>
+Date:   Wed Dec 14 19:13:52 2022 +0200
+
+    change festival date format
+
+M	web.py
+
+commit a8a7caaa85a58345e93c610ec383209fd53a8923
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Wed Dec 14 17:41:03 2022 +0200
+
+    small fixes
+
+M	web.py
+
+commit 099f5b7f40e14327d30abee924a9ea3f0774b29a
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Wed Dec 14 17:24:49 2022 +0200
+
+    fix pagnation, duplicate records and number of results
+
+M	web.py
+
+commit ae38a240d2f64f7d83d96f32ba1898721590ec7c
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Wed Dec 14 12:15:11 2022 +0200
+
+    style
+
+M	web.py
+
+commit 7ac52ec9809234feeff7ad7feae13a052bc28ba9
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Wed Dec 14 12:11:14 2022 +0200
+
+    buttons style
+
+M	web.py
+
+commit 54b06bb66a6a50b57353299c922211d7b11f64d0
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Wed Dec 14 12:10:26 2022 +0200
+
+    buttons style
+
+M	web.py
+
+commit f846eeeb407b143c2a7c14d2e2c779bc4e8da736
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Wed Dec 14 12:07:35 2022 +0200
+
+    change style
+
+M	web.py
+
+commit 30e06c1bc4c2aa90f402a25afe8815349d009a04
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Wed Dec 14 11:56:34 2022 +0200
+
+    change style and add pagination to results
+
+M	web.py
+
+commit 518747d0ed063427e1208ccd796471d2e025897e
+Author: shabtay <eli.shabtay@gmail.com>
+Date:   Tue Dec 13 21:12:19 2022 +0200
+
+    num of res style
+
+M	web.py
+
+commit 9efb67edb477d25406eebddf16640e5fe9f9cdb3
+Author: shabtay <eli.shabtay@gmail.com>
+Date:   Tue Dec 13 21:03:21 2022 +0200
+
+    change style
+
+M	web.py
+
+commit 4a088ffc023b260c4d6df06a97fce4a7fa0893de
+Author: shabtay <eli.shabtay@gmail.com>
+Date:   Tue Dec 13 16:56:17 2022 +0200
+
+    change results limit to 25
+
+M	web.py
+
+commit 4d6c830dc94474ddc5310de5b218c891ab96ed94
+Author: shabtay <eli.shabtay@gmail.com>
+Date:   Tue Dec 13 15:58:23 2022 +0200
+
+    remove score limit
+
+M	web.py
+
+commit 9a35ee82e454c96106192ad975262a5e9fbaba76
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Tue Dec 13 13:27:03 2022 +0200
+
+    change some style
+
+M	web.py
+
+commit 672427cd2b45e77e54812dbb726ad829ab91ba87
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Tue Dec 13 13:01:26 2022 +0200
+
+    change style
+
+M	web.py
+
+commit 545c2c1090cbf9f8ffddc06e52414af5071416ac
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Tue Dec 13 12:10:25 2022 +0200
+
+    get more relevant results with score
+
+M	web.py
+
+commit 7deb07a57fd97e7c7916d4483c9a85835a7fdbf7
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Tue Dec 13 12:07:40 2022 +0200
+
+    add icon and title
+
+A	.gitignore
+M	web.py
+
+commit 8c8c78788969554c6dc86d7de654d9b58e245cc4
+Author: shabtay <eli.shabtay@gmail.com>
+Date:   Tue Dec 13 11:16:33 2022 +0200
+
+    Update web.py
+
+M	web.py
+
+commit 680d6a537730a13d0f81d3ee44a8442b78677ecd
+Author: shabtay <eli.shabtay@gmail.com>
+Date:   Tue Dec 13 11:15:14 2022 +0200
+
+    Update web.py
+    
+    change from ini file to secrets
+
+M	web.py
+
+commit c4bfb6f623de94cbd481e501c4cd80e467a36159
+Author: shabtay <eli.shabtay@gmail.com>
+Date:   Tue Dec 13 11:13:58 2022 +0200
+
+    Update cnf.ini
+
+M	cnf.ini
+
+commit 2a12639f8494ba8fd6a9e11948cfd8e3fbefeebd
+Author: shabtay <eli.shabtay@gmail.com>
+Date:   Tue Dec 13 11:01:51 2022 +0200
+
+    Update cnf.ini
+
+M	cnf.ini
+
+commit 17553ea085ae0a45a2ff8fa59ca6fa9cae56aa5e
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Tue Dec 13 10:50:47 2022 +0200
+
+    add req file
+
+A	requirements.txt
+
+commit a26f21473c7f71c111739823ba0a19d783d60336
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Tue Dec 13 10:37:45 2022 +0200
+
+    remove some files
+
+D	bembassy.py
+D	danceplace.py
+D	goandance.py
+D	latindancecal.py
+
+commit 964499e4f8497cde2d96a3677906863be0d25d84
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Tue Dec 13 10:35:42 2022 +0200
+
+    change score conditions and some bug fixing
+
+M	web.py
+
+commit aa8b51086a9311232dc59c8ade42daec16d46b0c
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Tue Dec 13 10:19:34 2022 +0200
+
+    create modules for scapers with one indexing file
+
+A	cnf.ini
+A	index_sites.py
+A	sites/__pycache__/bembassy.cpython-311.pyc
+A	sites/__pycache__/danceplace.cpython-311.pyc
+A	sites/__pycache__/goandance.cpython-311.pyc
+A	sites/__pycache__/latindancecal.cpython-311.pyc
+A	sites/bembassy.py
+A	sites/danceplace.py
+A	sites/goandance.py
+A	sites/latindancecal.py
+M	web.py
+
+commit 48d75b8f840ac26a51a78498aab8a171c66dc974
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Tue Dec 13 08:54:59 2022 +0200
+
+    first code commit
+
+A	bembassy.py
+A	danceplace.py
+A	goandance.py
+A	latindancecal.py
+A	web.py
+
+commit dea366f6302d8ec9b19b1eabe4a60d92baae92ab
+Author: eli shabtay <eli.shabtay@gmail.com>
+Date:   Tue Dec 13 08:49:00 2022 +0200
+
+    first commit
+
+A	README.md
