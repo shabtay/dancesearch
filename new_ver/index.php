@@ -28,11 +28,17 @@
 			</div>
 
 			<div id="buttons" style="display:none; margin-top: 15px">
-				<button class="btn" onclick='do_next_prev("prev")'><i class="fas fa-arrow-left"></i> Prev</button>
-				<button class="btn" onclick='do_next_prev("next")'>Next <i class="fas fa-arrow-right"></i></button>
+				<button id="btn_prev1" class="btn" onclick='do_next_prev("prev")'><i class="fas fa-arrow-left"></i> Prev</button>
+				<button id="btn_next1" class="btn" onclick='do_next_prev("next")'>Next <i class="fas fa-arrow-right"></i></button>
 			</div>
 			
 			<div id="result_div" class="results"></div>
+			
+			<div id="buttons2" style="display:none; margin-top: 5px;">
+				<button id="btn_prev2" class="btn" onclick='do_next_prev("prev")'><i class="fas fa-arrow-left"></i> Prev</button>
+				<button id="btn_next2" class="btn" onclick='do_next_prev("next")'>Next <i class="fas fa-arrow-right"></i></button>
+			</div>
+			<br />
 		</div>
 
 		<script src="suggestions.js"></script> 

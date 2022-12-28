@@ -19,14 +19,12 @@ inputBox.onkeyup = (e)=>{
     let emptyArray = [];
     if(userData){
         icon.onclick = ()=>{
- //           webLink = `https://www.google.com/search?q=${userData}`;
- //           linkTag.setAttribute("href", webLink);
- //           linkTag.click();
 			do_search();
         }
         emptyArray = suggestions.filter((data)=>{
             //filtering array value and user characters to lowercase and return only those words which are start with user enetered chars
-            return data.toLocaleLowerCase().startsWith(userData.toLocaleLowerCase());
+            //return data.toLocaleLowerCase().startsWith(userData.toLocaleLowerCase());
+            return ( data.toLocaleLowerCase().search(userData.toLocaleLowerCase()) >= 0 ) ? true : false;
         });
         emptyArray = emptyArray.map((data)=>{
             // passing return data inside li tag
@@ -48,9 +46,6 @@ function select(element){
     let selectData = element.textContent;
     inputBox.value = selectData;
     icon.onclick = ()=>{
-        //webLink = `https://www.google.com/search?q=${selectData}`;
-        //linkTag.setAttribute("href", webLink);
-        //linkTag.click();
 		do_search();
     }
     searchWrapper.classList.remove("active");
@@ -81,6 +76,7 @@ function do_search( action ) {
 		success:function(response) {
 			if ( response != "" ) {
 				$("#buttons").show();
+				$("#buttons2").show();
 			}
 			$("#result_div").html( response );
 			setTimeout( $.unblockUI, 100 );
@@ -124,4 +120,14 @@ function move() {
 		  elem.style.width = width + '%';
 		}
 	}
+}
+
+function disable_next( val ) {
+	$("#btn_next1").prop('disabled', val);
+	$("#btn_next2").prop('disabled', val);
+}
+
+function disable_prev( val ) {
+	$("#btn_prev1").prop('disabled', val);
+	$("#btn_prev2").prop('disabled', val);
 }

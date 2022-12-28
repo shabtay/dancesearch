@@ -8,8 +8,10 @@ function norm_data( $data ) {
         if ( ! isset( $index_to_del[$i] ) ) {
             for ( $j = $i + 1; $j <= count( $data ) - 1; $j++ ) {
                 if ( $data[$i]['org_name'] == $data[$j]['org_name'] ) {
-                    $data[$i]['dance_type'] = $data[$i]['dance_type'] . ", " . $data[$j]['dance_type'];
-                    array_unshift( $index_to_del, $j );
+                    if ( ! str_contains( $data[$i]['dance_type'], $data[$j]['dance_type'] ) ) {
+						$data[$i]['dance_type'] = $data[$i]['dance_type'] . " / " . $data[$j]['dance_type'];
+						array_unshift( $index_to_del, $j );
+					}
 				}
 			}
 		}
@@ -29,10 +31,16 @@ function norm_data( $data ) {
 }
 
 if( isset( $_POST['search'] ) ) {
-	$host="localhost";
-	$username="root";
-	$password="";
-	$databasename="dance_search";
+	$host="latinfashabtay.mysql.db";
+	$username="latinfashabtay";
+	$password="P0o9i8u7y6";
+	$databasename="latinfashabtay";
+
+/*  	$host="sql.freedb.tech:3306";
+	$username="freedb_shabtay";
+	$password="DkkAz2@cj@97MTB";
+	$databasename="freedb_dancesearchengine";
+ */ 
 	$conn= new mysqli($host,$username,$password,$databasename);
 
 	$search_val=$_POST['search_term'];
@@ -80,9 +88,15 @@ if( isset( $_POST['search'] ) ) {
         $to = (intVal(count($data) / 10) * 10) + count($data) % 10;
 	}
  
+	$get_ts = $conn->query("SELECT DISTINCT(max(ts)) as ts FROM urls;");
+	$ts = $get_ts->fetch_assoc();
+ 
+	$pages = intVal(count($data) / 10);
+	$pages += ( count($data) % 10 > 0 ) ? 1 : 0;
+ 
 	$i = 0;	
 	echo "<hr /><br />";
-	echo "<div class='result-stats'>Got " . count($data) . " results from " . count($sites) . " websites ($fr - $to)</div>";
+	echo "<div class='result-stats'>Got " . count($data) . " results | ".$_SESSION['page']."/$pages pages | $fr - $to Results<span style='font-size:12px;float:right'>Updated on ".$ts['ts']."</span></div>";
 	foreach( $data as $row ) {
 		$i++;
 		
@@ -99,13 +113,21 @@ if( isset( $_POST['search'] ) ) {
 			echo "<div class='result_block'>
 			<div class='festival_img'><img src='".$clean_img_url."' /></div>
 			<div class='text_block'>
-				<a class='url'>$parsed_url... ( ". $row['dance_type'] ." )</a><br />
-				<a class='link_title' href='".$row['url']."'>".$row['org_name']."</a><br />
-				<div class='details'><strong>" . $date . ", " . $row['flocation'] . "</strong></div>
+				<a class='url'>$parsed_url &gt; ( ". ucwords($row['dance_type']) ." )</a><br />
+				<a class='link_title' href='".$row['url']."'>" . ucwords(strtolower($row['org_name'])) . "</a><br />
+				<div class='details'><strong>" . $date . ", " . ucwords($row['flocation']) . "</strong></div>
 			</div>
 			</div>";
 		}
 	}
-	echo "<br />";
+	echo "<hr /><br />";
+	
+	if ( $_SESSION['page'] == $pages ) {
+		echo "<script>disable_next( true );</script>";
+	} elseif( $_SESSION['page'] == 1 ) {
+		echo "<script>disable_prev( true );</script>";
+	} else {
+		echo "<script>disable_prev( false ); disable_next( false );</script>";
+	}
 }
 ?>
