@@ -12,15 +12,17 @@ def read():
 
     for dance_type in dance_types:
         URL = f"https://www.danceplace.com//events/in/2023/{dance_type}/-/-"
-        r = requests.get(URL)
+
+        headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
+        r = requests.get(URL, headers=headers)
            
         soup = BeautifulSoup(r.content, 'html5lib')
-            
         i = 0
 
         events_img = soup.findAll('div', attrs = {'class':'event-img'})
 
         events_html = soup.findAll('div', attrs = {'class':'event-txt'})
+
         for event_html in events_html:
             i = i + 1
             furl = event_html.find('a', href=True)['href']
