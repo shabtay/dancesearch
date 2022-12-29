@@ -54,7 +54,6 @@ def write_results_to_db( res ):
                 record['org_name'] 
             ]
             
-            query = f"insert into urls (url, image_url, name, fdate, flocation, dance_type, from_date, to_date, org_name) values ('{record['url']}', '{record['img_url']}', '{record['name']}', '{record['date']}', '{record['location']}', '{record['dance_type']}', '{record['from_date']}', '{record['to_date']}', '{record['org_name']}')"
             if record['url'] not in current_urls:
                 adding += 1
                 print( f"{counter}) Adding {record['org_name']} - {record['url']} to db" )
