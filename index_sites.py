@@ -3,6 +3,7 @@ import configparser
 import tomllib
 import logging
 from datetime import date
+import requests;
 
 import sites.goandance as gad
 import sites.bembassy as bb
@@ -20,6 +21,19 @@ with open("secrets.toml", "rb") as f:
 today = str(date.today())
 logging.basicConfig(filename=f'logs\\app_{today}.log', filemode='a', level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
 logging.info('Starting process')
+
+def send_query_to_website( query ):
+    url = 'https://latin-fest.com/add_website.php'
+    myobj = {'action': 'add_website', 'query': query}
+
+    res = requests.post(url, data = myobj)
+
+    if res.text != "0":
+        print( f"INFO: website added to latin-fest.com with id {res.text}" )
+        logging.info( f"website added to latin-fest.com with id {res.text}" )
+    else:
+        print( "ERROR: website couldn't added to latin-fest.com" )
+        logging.error( "website couldn't added to latin-fest.com" )
 
 def write_results_to_db( res ):
     print( f"Loading current URLs from DB" )
@@ -53,6 +67,7 @@ def write_results_to_db( res ):
                 record['org_name'] 
             ]
             
+            query = f"insert into urls (url, image_url, name, fdate, flocation, dance_type, from_date, to_date, org_name) values ('{record['url']}', '{record['img_url']}', '{record['name']}', '{record['date']}', '{record['location']}', '{record['dance_type']}', '{record['from_date']}', '{record['to_date']}', '{record['org_name']}')"
             if record['url'] not in current_urls:
                 adding += 1
                 print( f"{counter}) Adding {record['org_name']} - {record['url']} to db" )
@@ -60,6 +75,7 @@ def write_results_to_db( res ):
                 mycursor.execute( sql, val )
                 mydb.commit()
                 current_urls[record['url']] = 1
+                send_query_to_website( query )
     
     print( f"{adding}/{counter} records added to DB" )
     logging.info( f"{adding}/{counter} records added to DB" )
